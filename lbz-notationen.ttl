@@ -11,7 +11,7 @@
     dct:description "Die SKOS-Version dieses kontrollierten Vokabulars des Landesbibliothekszentrums Rheinland-Pfalz wurde vom hbz erstellt. Im Widerspruch zum gewählten Namensraum haben diese Notationen **nicht** mit der RPB (Rheinland-Pfälzischen Bibliographie) zu tun."@de ;
     dct:description "This SKOS version of a controlled vocabulary for the LBZ Rheinland-Pfalz was created by the hbz. Contrary to the chosen namespace, these notations have **nothing** to do with the RPB, the Bibliography of Rhineland Palatinate."@en ;
     dct:issued "2016-04-25" ;
-    dct:modified "2021-09-09" ;
+    dct:modified "2024-08-29" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
     vann:preferredNamespacePrefix "lbz" ;
@@ -19,457 +19,3209 @@
 
 :n33
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "33" ;
     skos:prefLabel "Vorlesungsverzeichnisse"@de .
 
 :n100
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n102, :n104, :n107, :n108 ;
     skos:notation "100" ;
     skos:prefLabel "Wissenschaft und Kultur allgemein"@de .
 
+:n102
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n100 ;
+    skos:notation "102" ;
+    skos:prefLabel "Kultur (-geschichte, -pflege, -management-, -preise, -politik)"@de .
+
+:n104
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n100 ;
+    skos:notation "104" ;
+    skos:prefLabel "Wissenschaft (-sgeschichte), Nobelpreisträger, Akademien"@de .
+
 :n106
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "106" ;
-    skos:prefLabel "Amtsdruckschriften allgemein"@de .
+    skos:prefLabel "Amtsdruckschriften"@de .
 
 :n107
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n100 ;
     skos:notation "107" ;
-    skos:prefLabel "Schulbücher allgemein"@de .
+    skos:prefLabel "Schulbücher"@de .
 
+:n108
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n100 ;
+    skos:notation "108" ;
+    skos:prefLabel "Museumskunde"@de .
 
 :n120
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n121, :n122, :n124, :n125, :n126, :n127, :n128, :n129 ;
     skos:notation "120" ;
-    skos:prefLabel "Erziehung, Bildung, Unterricht"@de .
+    skos:prefLabel "Erziehung. Bildung. Unterricht. Schulbücher"@de .
+
+:n121
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "121" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum zu Pädagogik, Erziehung, Erziehungswissenschaft"@de .
+
+:n122
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "122" ;
+    skos:prefLabel "Geschichte der Pädagogik und des Bildungswesens"@de .
+
+:n124
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "124" ;
+    skos:prefLabel "Pädagogik und Schule"@de .
+
+:n125
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "125" ;
+    skos:prefLabel "Außerschulische Pädagogik"@de .
+
+:n126
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "126" ;
+    skos:prefLabel "Sonderpädagogik. Heilpädagogik"@de .
+
+:n127
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "127" ;
+    skos:prefLabel "Soziale und sozialwissenschaftliche Aspekte der Pädagogik"@de .
+
+:n128
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "128" ;
+    skos:prefLabel "Schulbücher. Kinder- und Jugendliteratur"@de .
+
+:n129
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n120 ;
+    skos:notation "129" ;
+    skos:prefLabel "Sonstige Gebiete der Pädagogik"@de .
 
 :n130
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "130" ;
     skos:prefLabel "Landeskunde Region Koblenz"@de .
 
 :n131
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "131" ;
     skos:prefLabel "Landeskunde Pfalz"@de .
 
 :n132
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "132" ;
-    skos:prefLabel "Personen aus der Region Koblenz, deren Werke keinen inhaltlichen Bezug zur Region aufweisen"@de .
+    skos:prefLabel "Personen aus der Region Koblenz"@de .
 
 :n133
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "133" ;
-    skos:prefLabel "Personen aus der Pfalz, deren Werke keinen inhaltlichen Bezug zur Region aufweisen"@de .
+    skos:prefLabel "Personen aus der Pfalz"@de .
 
 :n136
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "136" ;
     skos:prefLabel "Landeskunde Region Trier"@de .
 
 :n137
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "137" ;
     skos:prefLabel "Landeskunde Rheinhessen"@de .
 
 :n139
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "139" ;
     skos:prefLabel "Belegexemplare Rheinland-Pfalz"@de .
 
 :n140
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "140" ;
     skos:prefLabel "Pflichtexemplar Region Koblenz"@de .
 
 :n141
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "141" ;
     skos:prefLabel "Pflichtexemplar Pfalz"@de .
 
 :n145
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "145" ;
     skos:prefLabel "Musiknoten"@de .
 
 :n146
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "146" ;
     skos:prefLabel "Pflichtexemplar Region Trier"@de .
 
 :n147
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "147" ;
     skos:prefLabel "Pflichtexemplar Rheinhessen"@de .
 
 :n150
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n151, :n152, :n155 ;
     skos:notation "150" ;
     skos:prefLabel "Allgemeine und vergleichende Sprach- und Literaturwissenschaft"@de .
 
+:n151
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n150 ;
+    skos:notation "151" ;
+    skos:prefLabel "Allgemeine und vergleichende Sprach- und Literaturwissenschaft insgesamt"@de .
+
+:n152
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n150 ;
+    skos:notation "152" ;
+    skos:prefLabel "Allgemeine und vergleichende Sprachwissenschaft"@de .
+
+:n155
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n150 ;
+    skos:notation "155" ;
+    skos:prefLabel "Allgemeine und vergleichende Literaturwissenschaft"@de .
+
 :n160
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "160" ;
     skos:prefLabel "Kinder-/Jugendliteratur"@de .
 
 :n161
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "161" ;
     skos:prefLabel "Kinder-/Jugendsachbuch"@de .
 
 :n180
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "180" ;
-    skos:prefLabel "Wörterbücher"@de .
+    skos:prefLabel "Wörterbücher (allgemeine; zweisprachige; auch \"tote Sprachen\" z. B. Alt-Ägyptisch)"@de .
 
 :n200
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n201, :n202, :n203, :n206, :n208 ;
     skos:notation "200" ;
-    skos:prefLabel "Deutsche Sprache u. Literatur"@de .
+    skos:prefLabel "Deutsche Sprache und Literatur. Germanistik insgesamt"@de .
+
+:n201
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n200 ;
+    skos:notation "201" ;
+    skos:prefLabel "Germanistik insgesamt"@de .
+
+:n202
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n200 ;
+    skos:notation "202" ;
+    skos:prefLabel "Deutsche Sprache und Literatur"@de .
+
+:n203
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n200 ;
+    skos:notation "203" ;
+    skos:prefLabel "Deutsche Sprache"@de .
+
+:n206
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n200 ;
+    skos:notation "206" ;
+    skos:prefLabel "Deutsche Literatur"@de .
+
+:n208
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n200 ;
+    skos:notation "208" ;
+    skos:prefLabel "Jiddische Sprache und Literatur"@de .
 
 :n210
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n211, :n212, :n213, :n214, :n215, :n216, :n217, :n218, :n219 ;
     skos:notation "210" ;
-    skos:prefLabel "Übrige Germanische Sprachen und Literaturen"@de .
+    skos:prefLabel "Sprachen und Literaturen der übrigen germanischen Sprachen"@de .
+
+:n211
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "211" ;
+    skos:prefLabel "Sprachen und Literaturen der übrigen (außer deutsch) germanischen Sprachen insgesamt"@de .
+
+:n212
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "212" ;
+    skos:prefLabel "Altgermanische Sprachen und Literaturen (auch Mythologie)"@de .
+
+:n213
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "213" ;
+    skos:prefLabel "Gotische Sprache und Literatur"@de .
+
+:n214
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "214" ;
+    skos:prefLabel "Niederländische und flämische Sprache und Literatur"@de .
+
+:n215
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "215" ;
+    skos:prefLabel "Friesische Sprache und Literatur"@de .
+
+:n216
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "216" ;
+    skos:prefLabel "Nordische Sprachen und Literaturen insgesamt"@de .
+
+:n217
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "217" ;
+    skos:prefLabel "Dänische Sprache und Literatur"@de .
+
+:n218
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "218" ;
+    skos:prefLabel "Schwedische Sprache und Literatur"@de .
+
+:n219
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n210 ;
+    skos:notation "219" ;
+    skos:prefLabel "Norwegische Sprache und Literatur"@de .
 
 :n230
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n231, :n232, :n234, :n238 ;
     skos:notation "230" ;
     skos:prefLabel "Englische Sprache und Literatur"@de .
 
+:n231
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n230 ;
+    skos:notation "231" ;
+    skos:prefLabel "Englische Sprache und Literatur insgesamt "@de .
+
+:n232
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n230 ;
+    skos:notation "232" ;
+    skos:prefLabel "Englische Sprache und Literatur in Großbritannien und Irland"@de .
+
+:n234
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n230 ;
+    skos:notation "234" ;
+    skos:prefLabel "Englische Sprache und Literatur im Commonwealth"@de .
+
+:n238
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n230 ;
+    skos:notation "238" ;
+    skos:prefLabel "Englische Sprache und Literatur in Amerika"@de .
+
 :n250
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n251, :n252, :n253, :n254, :n255, :n256, :n257, :n258, :n259 ;
     skos:notation "250" ;
     skos:prefLabel "Romanische Sprachen und Literaturen"@de .
 
+:n251
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "251" ;
+    skos:prefLabel "Romanische Sprachen und Literaturen insgesamt. Gesamtschrifttum der Romanistik bzw. Teilgebiete der Romanistik (z. B. Hispanistik, Lateinamerika)"@de .
+
+:n252
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "252" ;
+    skos:prefLabel "Französische Sprache und Literatur"@de .
+
+:n253
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "253" ;
+    skos:prefLabel "Provenzalische Sprache und Literatur"@de .
+
+:n254
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "254" ;
+    skos:prefLabel "Italienische Sprache und Literatur"@de .
+
+:n255
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "255" ;
+    skos:prefLabel "Sardische, rätoromanische und altdalmatische Sprachen und Literaturen"@de .
+
+:n256
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "256" ;
+    skos:prefLabel "Spanische Sprache und Literatur"@de .
+
+:n257
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "257" ;
+    skos:prefLabel "Katalanische Sprache und Literatur"@de .
+
+:n258
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "258" ;
+    skos:prefLabel "Portugiesische Sprache und Literatur"@de .
+
+:n259
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n250 ;
+    skos:notation "259" ;
+    skos:prefLabel "Rumänische Sprache und Literatur"@de .
+
 :n260
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n261, :n262, :n264, :n265, :n266, :n267, :n268 ;
     skos:notation "260" ;
     skos:prefLabel "Klassische Sprachen und Literaturen"@de .
 
+:n261
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "261" ;
+    skos:prefLabel "Klassische Sprachen und Literaturen insgesamt"@de .
+
+:n262
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "262" ;
+    skos:prefLabel "Klassische griechische Sprache und Literatur"@de .
+
+:n264
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "264" ;
+    skos:prefLabel "Byzantinische Sprache und Literatur"@de .
+
+:n265
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "265" ;
+    skos:prefLabel "Neugriechische Sprache und Literatur"@de .
+
+:n266
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "266" ;
+    skos:prefLabel "Klassische lateinische Sprache und Literatur"@de .
+
+:n267
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "267" ;
+    skos:prefLabel "Mittellateinische Sprache und Literatur (Mittelalter)"@de .
+
+:n268
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n260 ;
+    skos:notation "268" ;
+    skos:prefLabel "Neulateinische Sprache und Literatur (Humanisten, Kirchenlatein der Neuzeit)"@de .
+
 :n270
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n271, :n272, :n273, :n274, :n275, :n276, :n277, :n278, :n279 ;
     skos:notation "270" ;
-    skos:prefLabel "Slawische Sprachen und Literaturen"@de .
+    skos:prefLabel "Slawische und baltische Sprachen und Literaturen"@de .
+
+:n271
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "271" ;
+    skos:prefLabel "Slawische und baltische Sprachen und Literaturen, Slawistik und Baltistik insgesamt. Auch Teilgebiete wie Jugoslawische Literaturen, Bosnisch, Südosteuropäische Literaturen oder Osteuropäische Literaturen"@de .
+
+:n272
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "272" ;
+    skos:prefLabel "Russische, weißrussische und ukrainische Sprachen und Literaturen"@de .
+
+:n273
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "273" ;
+    skos:prefLabel "Polnische Sprache und Literatur. Kaschubische, pomoranische, polabische und slowinzische Sprachen und Literaturen"@de .
+
+:n274
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "274" ;
+    skos:prefLabel "Tschechische Sprache und Literatur"@de .
+
+:n275
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "275" ;
+    skos:prefLabel "Slowakische und serbokroatische Sprache und Literatur"@de .
+
+:n276
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "276" ;
+    skos:prefLabel "Slowenische Sprache und Literatur"@de .
+
+:n277
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "277" ;
+    skos:prefLabel "Mazedonische und bulgarische Sprache und Literatur"@de .
+
+:n278
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "278" ;
+    skos:prefLabel "Sorbische (wendische) Sprache und Literatur"@de .
+
+:n279
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n270 ;
+    skos:notation "279" ;
+    skos:prefLabel "Lettische und litauische Sprachen und Literaturen"@de .
 
 :n280
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n281, :n282, :n283, :n284, :n285, :n286, :n288, :n289, :n290, :n291, :n292, :n293, :n294, :n295, :n296, :n297, :n298, :n299 ;
     skos:notation "280" ;
-    skos:prefLabel "Sonstige Sprachen und Literaturen"@de .
+    skos:prefLabel "Sprachen und Literaturen sonstiger Sprachen und Literaturen"@de .
+
+:n281
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "281" ;
+    skos:prefLabel "Ägyptologie"@de .
+
+:n282
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "282" ;
+    skos:prefLabel "Finno-Ugristik"@de .
+
+:n283
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "283" ;
+    skos:prefLabel "Japanologie und Koreanistik"@de .
+
+:n284
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "284" ;
+    skos:prefLabel "Negro-afrikanische Sprachen und ihre Zeugnisse"@de .
+
+:n285
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "285" ;
+    skos:prefLabel "Kaukasische Sprachen und Literaturen"@de .
+
+:n286
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "286" ;
+    skos:prefLabel "Keltische Sprachen und Literaturen"@de .
+
+:n288
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "288" ;
+    skos:prefLabel "Semitistik"@de .
+
+:n289
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "289" ;
+    skos:prefLabel "Sinologie und sino-tibetische Philologie"@de .
+
+:n290
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "290" ;
+    skos:prefLabel "Ural-Altaistik"@de .
+
+:n291
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "291" ;
+    skos:prefLabel "Mittelmeersprachen"@de .
+
+:n292
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "292" ;
+    skos:prefLabel "Amerikanische Ursprachen und ihre Zeugnisse. Mischsprachen (kreolosierte Sprachen) und ihre Zeugnisse"@de .
+
+:n293
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "293" ;
+    skos:prefLabel "Australisch-Ozeanische Sprachen und ihre Zeugnisse"@de .
+
+:n294
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "294" ;
+    skos:prefLabel "Armenische Sprache und Literatur"@de .
+
+:n295
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "295" ;
+    skos:prefLabel "Iranistik. Zigeunersprachen und ihre Zeugnisse"@de .
+
+:n296
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "296" ;
+    skos:prefLabel "Indologie (auch Tamilisch)"@de .
+
+:n297
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "297" ;
+    skos:prefLabel "Thrakische Sprachen und ihre Zeugnisse. Albanische Sprache und Literatur. Baskische Sprache und Literatur"@de .
+
+:n298
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "298" ;
+    skos:prefLabel "Übrige bzw. mehrere Philologien (z. B. Ostasiatische Sprachen bzw. Literaturen, Orientalische Sprachen und Literaturen insgesamt)"@de .
+
+:n299
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n280 ;
+    skos:notation "299" ;
+    skos:prefLabel "Künstliche Sprachen und ihre Zeugnisse"@de .
 
 :n300
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n301, :n304, :n306, :n320, :n321, :n322, :n323, :n324, :n325, :n326, :n327, :n328, :n329 ;
     skos:notation "300" ;
-    skos:prefLabel "Archäologie, Vor- und Frühgeschichte"@de .
+    skos:prefLabel "Archäologie. Vor- und Frühgeschichte "@de .
+
+:n301
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "301" ;
+    skos:prefLabel "Archäologie und Vor- und Frühgeschichte allgemein. Gesamtschrifttum und Geschichte der Archäologie und der Vor- und Frühgeschichte"@de .
+
+:n304
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "304" ;
+    skos:prefLabel "Vor- und Frühgeschichte"@de .
+
+:n306
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "306" ;
+    skos:prefLabel "Archäologie"@de .
 
 :n320
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
     skos:notation "320" ;
     skos:prefLabel "Historische Hilfswissenschaften"@de .
 
+:n321
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "321" ;
+    skos:prefLabel "Historische Hilfswissenschaften insgesamt oder mehrere Teildisziplinen"@de .
+
+:n322
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "322" ;
+    skos:prefLabel "Metrologie"@de .
+
+:n323
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "323" ;
+    skos:prefLabel "Paläographie. Urkunden- und Aktenlehre"@de .
+
+:n324
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "324" ;
+    skos:prefLabel "Heraldik"@de .
+
+:n325
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "325" ;
+    skos:prefLabel "Genealogie"@de .
+
+:n326
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "326" ;
+    skos:prefLabel "Chronologie"@de .
+
+:n327
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "327" ;
+    skos:prefLabel "Numismatik"@de .
+
+:n328
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "328" ;
+    skos:prefLabel "Epigraphik"@de .
+
+:n329
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n300 ;
+    skos:notation "329" ;
+    skos:prefLabel "Sonstige Hilfswissenschaften"@de .
+
 :n330
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n331, :n332, :n333, :n334, :n335, :n336, :n337, :n338, :n339, :n340, :n341, :n342, :n343, :n344, :n345, :n346, :n347, :n348, :n349, :n350, :n351, :n352, :n353, :n354, :n355, :n356, :n357, :n358, :n359, :n360, :n361, :n362, :n363, :n364, :n365, :n366, :n367, :n369, :n370, :n371, :n372, :n373, :n374, :n375, :n376, :n377 ;
     skos:notation "330" ;
     skos:prefLabel "Geschichte"@de .
 
+:n331
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "331" ;
+    skos:prefLabel "Geschichte Allgemeines. Theorie des Faches. Geschichtswissenschaft. Geschichtsdidaktik"@de .
+
+:n332
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "332" ;
+    skos:prefLabel "Weltgeschichte. Gesamtdarstellungen zur europäischen Geschichte"@de .
+
+:n333
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "333" ;
+    skos:prefLabel "Kulturgeschichte"@de .
+
+:n334
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "334" ;
+    skos:prefLabel "Geschichte des Altertums"@de .
+
+:n335
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "335" ;
+    skos:prefLabel "Ägypten. Mesopotamien. Sonstige Hochkulturen des alten Orients"@de .
+
+:n336
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "336" ;
+    skos:prefLabel "Griechische Geschichte und hellenistische Großreiche"@de .
+
+:n337
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "337" ;
+    skos:prefLabel "Römisches Imperium und angrenzende Gebiete und Völker"@de .
+
+:n338
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "338" ;
+    skos:prefLabel "Mittelalter"@de .
+
+:n339
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "339" ;
+    skos:prefLabel "Byzanz, Völkerwanderungszeit"@de .
+
+:n340
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "340" ;
+    skos:prefLabel "Frankenreich"@de .
+
+:n341
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "341" ;
+    skos:prefLabel "Hoch- und Spätmittelalter"@de .
+
+:n342
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "342" ;
+    skos:prefLabel "Weltgeschichte und europäische Geschichte der Neuzeit insgesamt"@de .
+
+:n343
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "343" ;
+    skos:prefLabel "Zeitalter der Renaissance. Reformation und Religionskriege bis 1648"@de .
+
+:n344
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "344" ;
+    skos:prefLabel "Zeitalter des Absolutismus und der Aufklärung"@de .
+
+:n345
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "345" ;
+    skos:prefLabel "345 Weltgeschichte und Europäische Geschichte des 19. und 20. Jahrhunderts"@de .
+
+:n346
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "346" ;
+    skos:prefLabel "Zeitalter der französischen Revolution und Napoleons"@de .
+
+:n347
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "347" ;
+    skos:prefLabel "Restauration und Revolution (1815 - 1848/49)"@de .
+
+:n348
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "348" ;
+    skos:prefLabel "1848 bis 1914"@de .
+
+:n349
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "349" ;
+    skos:prefLabel "Weltkrieg I"@de .
+
+:n350
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "350" ;
+    skos:prefLabel "Zwischen den Weltkriegen"@de .
+
+:n351
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "351" ;
+    skos:prefLabel "Weltkrieg II."@de .
+
+:n352
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "352" ;
+    skos:prefLabel "Deutsche Geschichte"@de .
+
+:n353
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "353" ;
+    skos:prefLabel "Mittelalter"@de .
+
+:n354
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "354" ;
+    skos:prefLabel "Neuzeit insgesamt bis 1945"@de .
+
+:n355
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "355" ;
+    skos:prefLabel "Reformation und Religionskriege bis 1648"@de .
+
+:n356
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "356" ;
+    skos:prefLabel "Vom Westfälischen Frieden bis zum Wiener Kongreß"@de .
+
+:n357
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "357" ;
+    skos:prefLabel "Restauration. Vormärz (1815 - 1848/49) "@de .
+
+:n358
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "358" ;
+    skos:prefLabel "Nationale Einigung. Kaiserreich"@de .
+
+:n359
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "359" ;
+    skos:prefLabel "Weimarer Republik"@de .
+
+:n360
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "360" ;
+    skos:prefLabel "Nationalsozialismus und Emigration"@de .
+
+:n361
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "361" ;
+    skos:prefLabel "Deutsche Landesgeschichte. Allgemeines"@de .
+
+:n362
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "362" ;
+    skos:prefLabel "Deutsche Länder"@de .
+
+:n363
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "363" ;
+    skos:prefLabel "Deutsche Städte und Orte"@de .
+
+:n364
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "364" ;
+    skos:prefLabel "Geschichte der Schweiz. Österreich-Ungarns. CSR"@de .
+
+:n365
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "365" ;
+    skos:prefLabel "Geschichte Großbritanniens, England, Schottland, Irland. Gesamtdarstellung zum Empire"@de .
+
+:n366
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "366" ;
+    skos:prefLabel "Frankreich, Benelux"@de .
+
+:n367
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "367" ;
+    skos:prefLabel "Spanien, Portugal, Italien"@de .
+
+:n369
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "369" ;
+    skos:prefLabel "Ost- und Südosteuropa"@de .
+
+:n370
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "370" ;
+    skos:prefLabel "Nordeuropa"@de .
+
+:n371
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "371" ;
+    skos:prefLabel "Rußland, Sowjetunion"@de .
+
+:n372
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "372" ;
+    skos:prefLabel "Asien insgesamt (außer Rußland und Vorderem Orient)"@de .
+
+:n373
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "373" ;
+    skos:prefLabel "Vorderer Orient und Nordafrika"@de .
+
+:n374
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "374" ;
+    skos:prefLabel "Afrika südlich der Sahara"@de .
+
+:n375
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "375" ;
+    skos:prefLabel "Nordamerika"@de .
+
+:n376
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "376" ;
+    skos:prefLabel "Mittel- und Südamerika"@de .
+
+:n377
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n330 ;
+    skos:notation "377" ;
+    skos:prefLabel "Australien, Ozeanien"@de .
+
 :n380
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n381, :n383, :n384, :n385 ;
     skos:notation "380" ;
     skos:prefLabel "Wirtschafts- und Sozialgeschichte"@de .
 
+:n381
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n380 ;
+    skos:notation "381" ;
+    skos:prefLabel "Wirtschafts- und Sozialgeschichte. Allgemeines. Gesamtschrifttum"@de .
+
+:n383
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n380 ;
+    skos:notation "383" ;
+    skos:prefLabel "Soziale Bewegungen (hier: Arbeiterbewegung, Sozialismus, Frauen)"@de .
+
+:n384
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n380 ;
+    skos:notation "384" ;
+    skos:prefLabel "Sozialgeschichte"@de .
+
+:n385
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n380 ;
+    skos:notation "385" ;
+    skos:prefLabel "Wirtschaftsgeschichte"@de .
+
 :n400
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n405, :n410, :n415, :n420, :n425 ;
     skos:notation "400" ;
-    skos:prefLabel "Philosophie"@de .
+    skos:prefLabel "Philosophie. Grenzgebiete der Wissenschaft und Esoterik "@de .
+
+:n405
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n400 ;
+    skos:notation "405" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum der Philosophie"@de .
+
+:n410
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n400 ;
+    skos:notation "410" ;
+    skos:prefLabel "Geschichte der Philosophie"@de .
+
+:n415
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n400 ;
+    skos:notation "415" ;
+    skos:prefLabel "Systematische Philosophie"@de .
+
+:n420
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n400 ;
+    skos:notation "420" ;
+    skos:prefLabel "Angewandte Philosophie"@de .
+
+:n425
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n400 ;
+    skos:notation "425" ;
+    skos:prefLabel "Okkultismus. Parapsychologie"@de .
 
 :n430
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n432, :n433, :n435, :n436, :n437, :n438 ;
     skos:notation "430" ;
-    skos:prefLabel "Allgemeine und vergleichende Religionswissenschaft"@de .
+    skos:prefLabel "Allgemeine und vergleichende Religionswissenschaft "@de .
+
+:n432
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "432" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum der Religionswissenschaft"@de .
+
+:n433
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "433" ;
+    skos:prefLabel "Historische Relgionswissenschaft (Allgemeine und vergleichende Religionsgeschichte)"@de .
+
+:n435
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "435" ;
+    skos:prefLabel "Sog. Primitive Religionen"@de .
+
+:n436
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "436" ;
+    skos:prefLabel "Antike Religionen"@de .
+
+:n437
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "437" ;
+    skos:prefLabel "Germanische Religionen. Keltische Religionen. Slawische Religionen. Altamerikanische Religionen"@de .
+
+:n438
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n430 ;
+    skos:notation "438" ;
+    skos:prefLabel "Religiöse und weltanschauliche nichtchristliche Richtungen und Bewegungen"@de .
 
 :n450
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n452, :n455, :n457, :n459, :n460, :n461, :n462, :n463, :n464, :n465, :n466, :n467, :n469, :n470, :n472, :n474, :n475, :n476, :n477, :n478 ;
     skos:notation "450" ;
-    skos:prefLabel "Christliche Religionen"@de .
+    skos:prefLabel "Christliche Religion"@de .
+
+:n452
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "452" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum der Theologie"@de .
+
+:n455
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "455" ;
+    skos:prefLabel "Bibelwissenschaft"@de .
+
+:n457
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "457" ;
+    skos:prefLabel "Altes Testament"@de .
+
+:n459
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "459" ;
+    skos:prefLabel "Neues Testament"@de .
+
+:n460
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "460" ;
+    skos:prefLabel "Kirchen- und Dogmengeschichte"@de .
+
+:n461
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "461" ;
+    skos:prefLabel "Urchristentum, Frühkirche"@de .
+
+:n462
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "462" ;
+    skos:prefLabel "Christianisierung"@de .
+
+:n463
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "463" ;
+    skos:prefLabel "Mittelalter"@de .
+
+:n464
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "464" ;
+    skos:prefLabel "Neuzeit"@de .
+
+:n465
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "465" ;
+    skos:prefLabel "Konfessions- und Kirchenkunde. Kontroverstheologie. Oekumenik. Missionswissenschaft"@de .
+
+:n466
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "466" ;
+    skos:prefLabel "Kirchenkunde"@de .
+
+:n467
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "467" ;
+    skos:prefLabel "Kontroverstheologie"@de .
+
+:n469
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "469" ;
+    skos:prefLabel "Missionswissenschaft"@de .
+
+:n470
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "470" ;
+    skos:prefLabel "Systematische Theologie"@de .
+
+:n472
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "472" ;
+    skos:prefLabel "Dogmatik. Fundamentaltheologie. Apologetik"@de .
+
+:n474
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "474" ;
+    skos:prefLabel "Ethik. Moraltheologie"@de .
+
+:n475
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "475" ;
+    skos:prefLabel "Praktische Theologie. Katechetik. Religionspädagogik"@de .
+
+:n476
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "476" ;
+    skos:prefLabel "Liturgik"@de .
+
+:n477
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "477" ;
+    skos:prefLabel "Homiletik"@de .
+
+:n478
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n450 ;
+    skos:notation "478" ;
+    skos:prefLabel "Katechetik"@de .
 
 :n480
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n482, :n484, :n486, :n488 ;
     skos:notation "480" ;
     skos:prefLabel "Nichtchristliche Religionen"@de .
 
+:n482
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n480 ;
+    skos:notation "482" ;
+    skos:prefLabel "Allgemeines. Gesamtdarstellungen"@de .
+
+:n484
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n480 ;
+    skos:notation "484" ;
+    skos:prefLabel "Judentum"@de .
+
+:n486
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n480 ;
+    skos:notation "486" ;
+    skos:prefLabel "Islam"@de .
+
+:n488
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n480 ;
+    skos:notation "488" ;
+    skos:prefLabel "Buddhismus. Konfuzianismus. Shintoismus. Hinduismus"@de .
+
 :n500
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n501, :n502, :n503, :n505, :n507, :n508, :n509 ;
     skos:notation "500" ;
-    skos:prefLabel "Kunst, Comics, Cartoons, Karikaturen"@de .
+    skos:prefLabel "Bildende Kunst. Comics, Cartoons, Karikaturen "@de .
+
+:n501
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "501" ;
+    skos:prefLabel "Allgemeines. Kunstmuseen. Kunstsammler, Kunstpreise. Kunstförderung. Kunsthandel"@de .
+
+:n502
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "502" ;
+    skos:prefLabel "Allgemeine und vergleichende Kunstwissenschaft. Kunstbetrachtung. Kunstkritik. Kunstsoziologie. Kunstpsychologie. Gestaltungslehre. Ikonographie"@de .
+
+:n503
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "503" ;
+    skos:prefLabel "Kunstgeschichte nach Epochen"@de .
+
+:n505
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "505" ;
+    skos:prefLabel "Kunstgeschichte nach Ländern und Regionen"@de .
+
+:n507
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "507" ;
+    skos:prefLabel "Plastik"@de .
+
+:n508
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "508" ;
+    skos:prefLabel "Malerei. Zeichenkunst. Druckgrafik"@de .
+
+:n509
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n500 ;
+    skos:notation "509" ;
+    skos:prefLabel "Kunsthandwerk. Kunstgewerbe. Industriedesign. Sakrale Kunst. Schmuck. Metallarbeiten. Email. Keramik. Glas. Porzellan. Textilkunst. Möbel. Uhren. Waffen"@de .
 
 :n510
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n511, :n513, :n514, :n516, :n518 ;
     skos:notation "510" ;
     skos:prefLabel "Architektur"@de .
 
+:n511
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n510 ;
+    skos:notation "511" ;
+    skos:prefLabel "Allgemeines. Gesamtdarstellungen. Architekturtheorie. Architekturästhetik"@de .
+
+:n513
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n510 ;
+    skos:notation "513" ;
+    skos:prefLabel "Denkmalpflege. Denkmalschutz"@de .
+
+:n514
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n510 ;
+    skos:notation "514" ;
+    skos:prefLabel "Architektur nach Gattungen. Sakralbau. Profanarchitektur (Schlösser, Burgen). Innenarchitektur. Gartenkunst"@de .
+
+:n516
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n510 ;
+    skos:notation "516" ;
+    skos:prefLabel "Architektur nach Epochen und Stilen"@de .
+
+:n518
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n510 ;
+    skos:notation "518" ;
+    skos:prefLabel "Architektur nach Ländern und Orten (Bau- und Kunstdenkmäler)"@de .
+
 :n520
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n522, :n524, :n526 ;
     skos:notation "520" ;
     skos:prefLabel "Fotografie"@de .
 
+:n522
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n520 ;
+    skos:notation "522" ;
+    skos:prefLabel "Gesamtdarstellungen und allgemeine Einzelfragen"@de .
+
+:n524
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n520 ;
+    skos:notation "524" ;
+    skos:prefLabel "Geschichte der Fotografie, einzelne Fotografen"@de .
+
+:n526
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n520 ;
+    skos:notation "526" ;
+    skos:prefLabel "Sparten der Fotografie. Fotopraxis"@de .
+
 :n530
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n531, :n532, :n533, :n534, :n535, :n536, :n537, :n538 ;
     skos:notation "530" ;
     skos:prefLabel "Film"@de .
 
+:n531
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "531" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum"@de .
+
+:n532
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "532" ;
+    skos:prefLabel "Geschichte des Films. Biographien und personenbezogene Darstellungen von Filmkünstlern"@de .
+
+:n533
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "533" ;
+    skos:prefLabel "Ästhetik, Psychologie und Soziologie des Films"@de .
+
+:n534
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "534" ;
+    skos:prefLabel "Filmtechnik. Filmproduktion"@de .
+
+:n535
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "535" ;
+    skos:prefLabel "Filmgestaltung. Filmregie. Filmdramaturgie"@de .
+
+:n536
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "536" ;
+    skos:prefLabel "Filmwirtschaft. Organisationen. Lichtspielhäuser"@de .
+
+:n537
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "537" ;
+    skos:prefLabel "Einzelne Filmgattungen"@de .
+
+:n538
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n530 ;
+    skos:notation "538" ;
+    skos:prefLabel "Sonstiges"@de .
+
 :n540
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n541, :n542, :n543, :n544, :n545, :n546, :n547, :n548 ;
     skos:notation "540" ;
-    skos:prefLabel "Theater, Tanz"@de .
+    skos:prefLabel "Theater. Tanz"@de .
+
+:n541
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "541" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum"@de .
+
+:n542
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "542" ;
+    skos:prefLabel "Geschichte des Theaters und des Tanzes. Biographien und personenbezogene Darstellungen von Bühnenkünstlern"@de .
+
+:n543
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "543" ;
+    skos:prefLabel "Geschichte des Tanzes. Biographien und personenbezogene Darstellungen von Bühnenkünstlern"@de .
+
+:n544
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "544" ;
+    skos:prefLabel "Theorie, Soziologie und Ästhetik des Theaters und des Tanzes"@de .
+
+:n545
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "545" ;
+    skos:prefLabel "Künstlerische Arbeit: Dramaturgie. Choreographie. Schauspiel- und Tanzkunst. Bühnenbild"@de .
+
+:n546
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "546" ;
+    skos:prefLabel "Einzelne Sparten des Theaters"@de .
+
+:n547
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "547" ;
+    skos:prefLabel "Einzelne Tanzformen"@de .
+
+:n548
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n540 ;
+    skos:notation "548" ;
+    skos:prefLabel "Sonstige Aspekte des Theaters und des Tanzes"@de .
 
 :n550
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n551, :n552, :n554, :n556, :n559 ;
     skos:notation "550" ;
     skos:prefLabel "Musik"@de .
 
+:n551
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n550 ;
+    skos:notation "551" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum zur Musik und der Musikwissenschaft"@de .
+
+:n552
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n550 ;
+    skos:notation "552" ;
+    skos:prefLabel "Musikalische Grundlagenforschung"@de .
+
+:n554
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n550 ;
+    skos:notation "554" ;
+    skos:prefLabel "Geschichte und Gegenwart der Musik nach Gattungen und geographischen Räumen"@de .
+
+:n556
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n550 ;
+    skos:notation "556" ;
+    skos:prefLabel "Musikgeschichte nach Epochen und Personen"@de .
+
+:n559
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n550 ;
+    skos:notation "559" ;
+    skos:prefLabel "Musikdidaktik. Musikpädagogik"@de .
+
 :n560
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n561, :n562, :n564, :n566, :n568, :n569 ;
     skos:notation "560" ;
-    skos:prefLabel "Buch, Bibliothek, Information und Dokumentation"@de .
+    skos:prefLabel "Buch. Bibliothek. Information und Dokumentation"@de .
+
+:n561
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "561" ;
+    skos:prefLabel "Allgemeines und Fachübergreifendes"@de .
+
+:n562
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "562" ;
+    skos:prefLabel "Archivwesen"@de .
+
+:n564
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "564" ;
+    skos:prefLabel "Bibliotheks- und Dokumentationswesen"@de .
+
+:n566
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "566" ;
+    skos:prefLabel "Buchhandel und Verlagswesen"@de .
+
+:n568
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "568" ;
+    skos:prefLabel "Buch- und Druckgeschichte"@de .
+
+:n569
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n560 ;
+    skos:notation "569" ;
+    skos:prefLabel "Bibliophilie"@de .
 
 :n580
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n582, :n584, :n586, :n588 ;
     skos:notation "580" ;
-    skos:prefLabel "Schrift, Handschriften, Buchkunst"@de .
+    skos:prefLabel "Schrift. Handschriften. Buchkunst "@de .
+
+:n582
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n580 ;
+    skos:notation "582" ;
+    skos:prefLabel "Schrift (-geschichte, -kunde, -gestaltung)"@de .
+
+:n584
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n580 ;
+    skos:notation "584" ;
+    skos:prefLabel "Handschriften (-kunde)"@de .
+
+:n586
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n580 ;
+    skos:notation "586" ;
+    skos:prefLabel "Buchkunst (-illustration)"@de .
+
+:n588
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n580 ;
+    skos:notation "588" ;
+    skos:prefLabel "Einband (-kunde)"@de .
 
 :n600
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n601, :n602, :n603, :n604, :n605, :n606, :n607, :n608, :n609 ;
     skos:notation "600" ;
-    skos:prefLabel "Recht"@de .
+    skos:prefLabel "Rechtswissenschaft"@de .
+
+:n601
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "601" ;
+    skos:prefLabel "Öffentliches Recht allgemein. Staats- und Verfasssungsrecht. Europarecht"@de .
+
+:n602
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "602" ;
+    skos:prefLabel "Bürgerliches Recht, Privatrecht"@de .
+
+:n603
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "603" ;
+    skos:prefLabel "Strafrecht, Strafprozess, Kriminologie"@de .
+
+:n604
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "604" ;
+    skos:prefLabel "Handels-, Gesellschafts- und Wirtschaftsrecht"@de .
+
+:n605
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "605" ;
+    skos:prefLabel "Verwaltungsrecht, Verwaltungswissenschaft "@de .
+
+:n606
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "606" ;
+    skos:prefLabel "Gerichtsverfassung, Rechtspflege, Zivilprozess"@de .
+
+:n607
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "607" ;
+    skos:prefLabel "Finanz- und Steuerrecht"@de .
+
+:n608
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "608" ;
+    skos:prefLabel "Arbeits- und Sozialrecht"@de .
+
+:n609
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n600 ;
+    skos:notation "609" ;
+    skos:prefLabel "Weitere Rechtsgebiete"@de .
 
 :n610
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n611, :n612, :n613, :n614, :n615, :n616, :n617, :n618, :n619 ;
     skos:notation "610" ;
     skos:prefLabel "Politik"@de .
 
+:n611
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "611" ;
+    skos:prefLabel "Politikwissenschaft insgesamt"@de .
+
+:n612
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "612" ;
+    skos:prefLabel "Grundlagen der Politikwissenschaft"@de .
+
+:n613
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "613" ;
+    skos:prefLabel "Gesellschaftlich-politische Ordnungssysteme, Ideologien"@de .
+
+:n614
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "614" ;
+    skos:prefLabel "Staats- und Herrschaftsformen"@de .
+
+:n615
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "615" ;
+    skos:prefLabel "Parlamentarismus"@de .
+
+:n616
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "616" ;
+    skos:prefLabel "Politische Parteien. Politische Bewegungen und Verbände. Politische Eliten"@de .
+
+:n617
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "617" ;
+    skos:prefLabel "Einzelne Parteien, ihre Geschichte, ihre Programme, einzelne Politiker"@de .
+
+:n618
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "618" ;
+    skos:prefLabel "Politische Systeme. Innenpolitik"@de .
+
+:n619
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n610 ;
+    skos:notation "619" ;
+    skos:prefLabel "Außenpolitik. Internationale und zwischenstaatliche Beziehungen ab 1945"@de .
+
 :n620
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n622, :n624, :n626, :n628 ;
     skos:notation "620" ;
     skos:prefLabel "Publizistik"@de .
 
+:n622
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n620 ;
+    skos:notation "622" ;
+    skos:prefLabel "Massenkommunikation(sforschung). Massenmedien. Medienkunde"@de .
+
+:n624
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n620 ;
+    skos:notation "624" ;
+    skos:prefLabel "Presse, Druckmedien"@de .
+
+:n626
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n620 ;
+    skos:notation "626" ;
+    skos:prefLabel "Rundfunk. Hörfunk  "@de .
+
+:n628
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n620 ;
+    skos:notation "628" ;
+    skos:prefLabel "Fernsehen"@de .
+
 :n630
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n631, :n637, :n639 ;
     skos:notation "630" ;
     skos:prefLabel "Soziologie, Gesellschaft"@de .
 
+:n631
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n630 ;
+    skos:notation "631" ;
+    skos:prefLabel "Allgemeines. Gesamtdarstellungen der Soziologie"@de .
+
+:n637
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n630 ;
+    skos:notation "637" ;
+    skos:prefLabel "Sozialwissenschaftliche Theorien und Methoden"@de .
+
+:n639
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n630 ;
+    skos:notation "639" ;
+    skos:prefLabel "Spezielle Soziologien, Teilgebiete des Faches"@de .
+
 :n640
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n642, :n645, :n647 ;
     skos:notation "640" ;
     skos:prefLabel "Volkskunde, Völkerkunde"@de .
 
+:n642
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n640 ;
+    skos:notation "642" ;
+    skos:prefLabel "Allgemeine und Gesamtdarstellungen zur Volkskunde und Völkerkunde"@de .
+
+:n645
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n640 ;
+    skos:notation "645" ;
+    skos:prefLabel "Nationale und regionale Volkskunde und Völkerkunde"@de .
+
+:n647
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n640 ;
+    skos:notation "647" ;
+    skos:prefLabel "Systematische Volkskunde und Völkerkunde. Sachvolkskunde"@de .
+
 :n650
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n651, :n652, :n653, :n654, :n655, :n656, :n657, :n658, :n659, :n660, :n661, :n662, :n663, :n664, :n665, :n666, :n667, :n668, :n669, :n670, :n671, :n672, :n673, :n674, :n675, :n676, :n677, :n678, :n679 ;
     skos:notation "650" ;
-    skos:prefLabel "Wirtschaft"@de .
+    skos:prefLabel "Wirtschaft "@de .
+
+:n651
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "651" ;
+    skos:prefLabel "Wirtschaftswissenschaft insgesamt"@de .
+
+:n652
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "652" ;
+    skos:prefLabel "Politische Ökonomie. Ökonometrie. Wirtschaftsinformatik"@de .
+
+:n653
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "653" ;
+    skos:prefLabel "Wirtschaftstheorie, Volkswirtschaftslehre allgemein"@de .
+
+:n654
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "654" ;
+    skos:prefLabel "Volkswirtschaftliches Rechnungswesen"@de .
+
+:n655
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "655" ;
+    skos:prefLabel "Einkommen und Verteilung"@de .
+
+:n656
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "656" ;
+    skos:prefLabel "Konjunktur. Beschäftigung. Wachstum. Wohlfahrtstheorie"@de .
+
+:n657
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "657" ;
+    skos:prefLabel "Entwicklungsländer"@de .
+
+:n658
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "658" ;
+    skos:prefLabel "Außenwirtschaft"@de .
+
+:n659
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "659" ;
+    skos:prefLabel "Zahlungsbilanz. Währungsordnung. Wirtschaftliche Integration"@de .
+
+:n660
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "660" ;
+    skos:prefLabel "Geld. Geld- und Kapitalmarkt"@de .
+
+:n661
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "661" ;
+    skos:prefLabel "Allgemeine Wirtschaftspolitik. Wirtschaftsordnungen, -systeme"@de .
+
+:n662
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "662" ;
+    skos:prefLabel "Finanzwissenschaft. Finanzpolitik"@de .
+
+:n663
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "663" ;
+    skos:prefLabel "Sektorale Wirtschaftspolitik"@de .
+
+:n664
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "664" ;
+    skos:prefLabel "Regionale Wirtschaftspolitik. Strukturpolitik"@de .
+
+:n665
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "665" ;
+    skos:prefLabel "Natürliche Umwelt, Umweltschutz. Bevölkerung"@de .
+
+:n666
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "666" ;
+    skos:prefLabel "Arbeitnehmerfragen. Arbeitsmarkt. Bildungsökonomie"@de .
+
+:n667
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "667" ;
+    skos:prefLabel "Betriebswirtschaftslehre allgemein. Managementlehre"@de .
+
+:n668
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "668" ;
+    skos:prefLabel "Unternehmensführung, -organisation, -formen"@de .
+
+:n669
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "669" ;
+    skos:prefLabel "Personal"@de .
+
+:n670
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "670" ;
+    skos:prefLabel "Produktion. Beschaffung. Lagerhaltung"@de .
+
+:n671
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "671" ;
+    skos:prefLabel "Marketing"@de .
+
+:n672
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "672" ;
+    skos:prefLabel "Investition und Finanzierung"@de .
+
+:n673
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "673" ;
+    skos:prefLabel "Betriebliches Rechnungswesen"@de .
+
+:n674
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "674" ;
+    skos:prefLabel "Betriebswirtschaftliche Steuerlehre"@de .
+
+:n675
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "675" ;
+    skos:prefLabel "Revisions- und Treuhandwesen"@de .
+
+:n676
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "676" ;
+    skos:prefLabel "Industrie- und Handwerksbetriebslehre"@de .
+
+:n677
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "677" ;
+    skos:prefLabel "Handels- und Versicherungsbetriebslehre. Controlling"@de .
+
+:n678
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "678" ;
+    skos:prefLabel "Genossenschafts- und Verkehrsbetriebslehre"@de .
+
+:n679
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n650 ;
+    skos:notation "679" ;
+    skos:prefLabel "Bankbetriebslehre"@de .
 
 :n680
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n681, :n685, :n686 ;
     skos:notation "680" ;
-    skos:prefLabel "Sondersammlung Wein"@de .
+    skos:prefLabel "Sondersammlung Weinliteratur "@de .
+
+:n681
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n680 ;
+    skos:notation "681" ;
+    skos:prefLabel "Wein insgesamt. Gesamtschrifttum und Geschichte des Weines"@de .
+
+:n685
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n680 ;
+    skos:notation "685" ;
+    skos:prefLabel "Einzelne Anbaugebiete: Deutschland"@de .
+
+:n686
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n680 ;
+    skos:notation "686" ;
+    skos:prefLabel "Einzelne Anbaugebiete: Regionen außerhalb Deutschlands"@de .
 
 :n689
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "689" ;
     skos:prefLabel "Kulinaristik"@de .
 
 :n690
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n691, :n692, :n693, :n694, :n695, :n696, :n697, :n699 ;
     skos:notation "690" ;
     skos:prefLabel "Militär"@de .
 
+:n691
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "691" ;
+    skos:prefLabel "691 Allgemeines und Gesamtdarstellungen. Theorie des Kriegswesens"@de .
+
+:n692
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "692" ;
+    skos:prefLabel "Waffenkunde bis zur Gegenwart"@de .
+
+:n693
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "693" ;
+    skos:prefLabel "Uniformen, Orden, Feldzeichen (hier nur militärische, übrige siehe 329)"@de .
+
+:n694
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "694" ;
+    skos:prefLabel "Kriege. Kampfhandlungen (hier nur unter militärischen Aspekten, sonst 330 ff)"@de .
+
+:n695
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "695" ;
+    skos:prefLabel "Deutsche Armeen bis zur Gegenwart – alle Truppengattungen"@de .
+
+:n696
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "696" ;
+    skos:prefLabel "Andere Armeen – alle Truppengattungen"@de .
+
+:n697
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "697" ;
+    skos:prefLabel "Rüstungs- und Sicherheitspolitik. Rüstungswirtschaft"@de .
+
+:n699
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n690 ;
+    skos:notation "699" ;
+    skos:prefLabel "Sonstiges"@de .
+
 :n700
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n701 ;
     skos:notation "700" ;
+    skos:prefLabel "Natur, Naturwissenschaften allgemein"@de .
+
+:n701
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n700 ;
+    skos:notation "701" ;
     skos:prefLabel "Natur, Naturwissenschaften allgemein"@de .
 
 :n710
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n711, :n712, :n713, :n714, :n715, :n716, :n717, :n719 ;
     skos:notation "710" ;
-    skos:prefLabel "Geographie, Heimat- und Länderkunde, Atlanten"@de .
+    skos:prefLabel "Geographie, Heimat- und Länderkunde, Reisen, Atlanten, Geographische Karten"@de .
+
+:n711
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "711" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum und Geschichte der Geographie"@de .
+
+:n712
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "712" ;
+    skos:prefLabel "Atlanten"@de .
+
+:n713
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "713" ;
+    skos:prefLabel "Regionale Geographie allgemein (globale Darstellungen)"@de .
+
+:n714
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "714" ;
+    skos:prefLabel "Regionale Geographie: Deutschland"@de .
+
+:n715
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "715" ;
+    skos:prefLabel "Regionale Geographie: Europa"@de .
+
+:n716
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "716" ;
+    skos:prefLabel "Regionale Geographie: außereuropäische Gebiete"@de .
+
+:n717
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "717" ;
+    skos:prefLabel "Anthropogeographie. Angewandte und Historische Geographie"@de .
+
+:n719
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n710 ;
+    skos:notation "719" ;
+    skos:prefLabel "Reisen. Entdeckungen"@de .
 
 :n720
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n721, :n722, :n728, :n732, :n736 ;
     skos:notation "720" ;
     skos:prefLabel "Geowissenschaften"@de .
 
+:n721
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n720 ;
+    skos:notation "721" ;
+    skos:prefLabel "721 Allgemeines. Gesamtschrifttum und Geschichte der Geowissenschaften. Methodenlehre"@de .
+
+:n722
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n720 ;
+    skos:notation "722" ;
+    skos:prefLabel "Geomorphologie. Klimageographie. Klimatologie. Meteorolgie"@de .
+
+:n728
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n720 ;
+    skos:notation "728" ;
+    skos:prefLabel "728 Geochemie. Geologie. Geophysik. Kristallographie. Lagerstättenkunde. Mineralogie, Paläontologie (s. auch 781 ff). Petrographie"@de .
+
+:n732
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n720 ;
+    skos:notation "732" ;
+    skos:prefLabel "Biogeographie (Pflanzengeographie. Tiergeographie). Bodengeographie. Bodenkunde. Hydrogeographie. Hydrologie. Meereskunde"@de .
+
+:n736
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n720 ;
+    skos:notation "736" ;
+    skos:prefLabel "Geodäsie. Fernerkundung. Kartographie. Historische Kartographie"@de .
+
 :n740
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n742, :n746, :n748 ;
     skos:notation "740" ;
-    skos:prefLabel "Umweltschutz, Raumordnung, Landschaftsgestaltung"@de .
+    skos:prefLabel "Umweltschutz. Raumordnung. Landschaftsgestaltung"@de .
+
+:n742
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n740 ;
+    skos:notation "742" ;
+    skos:prefLabel "Umweltschutz. Naturschutz. Ökologie"@de .
+
+:n746
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n740 ;
+    skos:notation "746" ;
+    skos:prefLabel "Raumordnung. Raumplanung"@de .
+
+:n748
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n740 ;
+    skos:notation "748" ;
+    skos:prefLabel "Landschaftsgestaltung. Landschaftspflege"@de .
 
 :n760
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n761, :n762, :n766, :n768 ;
     skos:notation "760" ;
     skos:prefLabel "Landwirtschaft, Garten"@de .
 
+:n761
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n760 ;
+    skos:notation "761" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum und Geschichte der Landwirtschaft"@de .
+
+:n762
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n760 ;
+    skos:notation "762" ;
+    skos:prefLabel "Landwirtschaft"@de .
+
+:n766
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n760 ;
+    skos:notation "766" ;
+    skos:prefLabel "Obst- und Gartenbau"@de .
+
+:n768
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n760 ;
+    skos:notation "768" ;
+    skos:prefLabel "Forstwirtschaft. Waldbau. Jagd"@de .
+
 :n780
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n781, :n782, :n788, :n790, :n792, :n794, :n796, :n798 ;
     skos:notation "780" ;
     skos:prefLabel "Biologie"@de .
 
+:n781
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "781" ;
+    skos:prefLabel "781 Allgemeines. Gesamtschrifttum und Geschichte der Biologie. Paläobiologie"@de .
+
+:n782
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "782" ;
+    skos:prefLabel "Biochemie. Biometrie. Biophysik. Biostatistik. Cytologie. Histologie. Mikrobiologie. Physiologie"@de .
+
+:n788
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "788" ;
+    skos:prefLabel "Allgemeine Botanik. Paläobotanik"@de .
+
+:n790
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "790" ;
+    skos:prefLabel "Spezielle Botanik"@de .
+
+:n792
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "792" ;
+    skos:prefLabel "Allgemeine Zoologie. Paläozoologie"@de .
+
+:n794
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "794" ;
+    skos:prefLabel "Spezielle Zoologie"@de .
+
+:n796
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "796" ;
+    skos:prefLabel "796 Biotechnologie (auch Gentechnologie). Biologische Arbeitsmethoden (Mikroskopie u. ä.) Ökologie (siehe auch 742)"@de .
+
+:n798
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n780 ;
+    skos:notation "798" ;
+    skos:prefLabel "Anthropologie. Evolution. Genetik (Vererbung). Verhaltensforschung"@de .
+
 :n800
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n801 ;
     skos:notation "800" ;
+    skos:prefLabel "Mathematik"@de .
+
+:n801
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n800 ;
+    skos:notation "801" ;
     skos:prefLabel "Mathematik"@de .
 
 :n810
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n812, :n814, :n816 ;
     skos:notation "810" ;
     skos:prefLabel "Statistik"@de .
 
+:n812
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n810 ;
+    skos:notation "812" ;
+    skos:prefLabel "Statistik allgemein, einzelne Methoden, Weltstatistik"@de .
+
+:n814
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n810 ;
+    skos:notation "814" ;
+    skos:prefLabel "Statistiken Deutschlands"@de .
+
+:n816
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n810 ;
+    skos:notation "816" ;
+    skos:prefLabel "Statistiken Ausland"@de .
+
 :n820
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n821, :n824, :n826, :n828 ;
     skos:notation "820" ;
-    skos:prefLabel "Informatik, Datenverarbeitung"@de .
+    skos:prefLabel "Informatik, Datenverarbeitung "@de .
+
+:n821
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n820 ;
+    skos:notation "821" ;
+    skos:prefLabel "Allgemeines. Grundlagen. Gesamtschrifttum und Geschichte der Informatik und Datenverarbeitung"@de .
+
+:n824
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n820 ;
+    skos:notation "824" ;
+    skos:prefLabel "824 Technische Informatik"@de .
+
+:n826
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n820 ;
+    skos:notation "826" ;
+    skos:prefLabel "Software"@de .
+
+:n828
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n820 ;
+    skos:notation "828" ;
+    skos:prefLabel "Anwendungen der Datenverarbeitung"@de .
 
 :n830
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n831, :n832, :n836, :n838 ;
     skos:notation "830" ;
     skos:prefLabel "Physik, Astronomie"@de .
 
+:n831
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n830 ;
+    skos:notation "831" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum und Geschichte der Physik"@de .
+
+:n832
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n830 ;
+    skos:notation "832" ;
+    skos:prefLabel "Akustik. Elektrizitätslehre. Felder. Laser. Mechanik. Optik. Schwingungslehre. Relativitätstheorie. Statistische Physik. Thermodynamik"@de .
+
+:n836
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n830 ;
+    skos:notation "836" ;
+    skos:prefLabel "836 Angewandte Physik. Atom- und Molekülphysik. Kernphysik. Quantentheorie und –mechanik. Elementarteilchenphysik. Festkörperphysik. Hochenergiephysik. Plasmaphysik."@de .
+
+:n838
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n830 ;
+    skos:notation "838" ;
+    skos:prefLabel "Astronomie. Astrophysik. Geophysik "@de .
+
 :n840
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n841, :n843, :n845, :n847, :n848 ;
     skos:notation "840" ;
     skos:prefLabel "Chemie"@de .
 
+:n841
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n840 ;
+    skos:notation "841" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum und Geschichte der Chemie"@de .
+
+:n843
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n840 ;
+    skos:notation "843" ;
+    skos:prefLabel "Physikalische und Theoretische Chemie"@de .
+
+:n845
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n840 ;
+    skos:notation "845" ;
+    skos:prefLabel "Umweltchemie"@de .
+
+:n847
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n840 ;
+    skos:notation "847" ;
+    skos:prefLabel "Anorganische Chemie"@de .
+
+:n848
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n840 ;
+    skos:notation "848" ;
+    skos:prefLabel "Organische Chemie"@de .
+
 :n850
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n851, :n852, :n853, :n854, :n855, :n856, :n857, :n858, :n859 ;
     skos:notation "850" ;
     skos:prefLabel "Medizin"@de .
 
+:n851
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "851" ;
+    skos:prefLabel "Anatomie, Innere Medizin, Pathologie"@de .
+
+:n852
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "852" ;
+    skos:prefLabel "Neurologie und Psychiatrie"@de .
+
+:n853
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "853" ;
+    skos:prefLabel "Frauen-, Kinder-, Geburts- und Sexualmedizin"@de .
+
+:n854
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "854" ;
+    skos:prefLabel "übrige Einzeldisziplinen"@de .
+
+:n855
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "855" ;
+    skos:prefLabel "Hygiene, Krankenpflege"@de .
+
+:n856
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "856" ;
+    skos:prefLabel "Ernährung"@de .
+
+:n857
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "857" ;
+    skos:prefLabel "Gesundheitswesen"@de .
+
+:n858
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "858" ;
+    skos:prefLabel "Pharmakologie"@de .
+
+:n859
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n850 ;
+    skos:notation "859" ;
+    skos:prefLabel "Alternative Medizin"@de .
+
 :n860
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n865, :n870, :n875 ;
     skos:notation "860" ;
     skos:prefLabel "Psychologie"@de .
 
+:n865
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n860 ;
+    skos:notation "865" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum der Psychologie"@de .
+
+:n870
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n860 ;
+    skos:notation "870" ;
+    skos:prefLabel "Systematische Psychologie"@de .
+
+:n875
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n860 ;
+    skos:notation "875" ;
+    skos:prefLabel "Angewandte Psychologie"@de .
+
 :n880
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n881 ;
     skos:notation "880" ;
-    skos:prefLabel "Veterinärmedizin"@de .
+    skos:prefLabel "Tiermedizin"@de .
+
+:n881
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n880 ;
+    skos:notation "881" ;
+    skos:prefLabel "Tiermedizin"@de .
 
 :n900
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n901 ;
     skos:notation "900" ;
-    skos:prefLabel "Technik allgemein"@de .
+    skos:prefLabel "Technik allgemein "@de .
+
+:n901
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n900 ;
+    skos:notation "901" ;
+    skos:prefLabel "Technik"@de .
 
 :n910
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n912, :n913, :n914, :n915, :n917, :n919 ;
     skos:notation "910" ;
-    skos:prefLabel "Energie, Maschinen- Fertigungstechnik"@de .
+    skos:prefLabel "Energie-, Maschinen-, Fertigungstechnik"@de .
+
+:n912
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "912" ;
+    skos:prefLabel "Energietechnik"@de .
+
+:n913
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "913" ;
+    skos:prefLabel "Maschinenbau allgemein"@de .
+
+:n914
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "914" ;
+    skos:prefLabel "Maschinenelemente (Antrieb, Getriebe, Zahnrad). Maschinengestaltung. Maschinenkonstruktion"@de .
+
+:n915
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "915" ;
+    skos:prefLabel "Spezieller Maschinenbau "@de .
+
+:n917
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "917" ;
+    skos:prefLabel "Transportechnik. Verkehrstechnik"@de .
+
+:n919
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n910 ;
+    skos:notation "919" ;
+    skos:prefLabel "Feinwerktechnik. Fertigungstechnik (Fräsen, Umformen, Walzen usw.) Gießen. Schweißen. Waffentechnik"@de .
 
 :n920
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n921, :n924, :n925, :n926, :n927, :n928 ;
     skos:notation "920" ;
     skos:prefLabel "Elektrotechnik"@de .
 
+:n921
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "921" ;
+    skos:prefLabel "Allgemeines. Gesamtschrifttum und Geschichte der Elektrotechnik"@de .
+
+:n924
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "924" ;
+    skos:prefLabel "Elektrische Bauelemente, Netzwerke und Schaltungen, elektrotechnische Werkstoffe und Maschinen, Elektroinstallation"@de .
+
+:n925
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "925" ;
+    skos:prefLabel "Elektrische Energietechnik. Hochspannungstechnik. Starkstromtechnik"@de .
+
+:n926
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "926" ;
+    skos:prefLabel "Elektronik und Mikroelektronik allgemein"@de .
+
+:n927
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "927" ;
+    skos:prefLabel "Mess- und Regelungstechnik. Steuerungstechnik u. ä."@de .
+
+:n928
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n920 ;
+    skos:notation "928" ;
+    skos:prefLabel "Nachrichtentechnik. Telekommunikationstechnik. Audio- und Videotechnik"@de .
+
 :n930
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n932, :n933, :n934, :n935, :n936, :n937, :n938 ;
     skos:notation "930" ;
     skos:prefLabel "Bergbau, Bautechnik, Umwelttechnik"@de .
 
+:n932
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "932" ;
+    skos:prefLabel "Bergbau. Hüttenwesen"@de .
+
+:n933
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "933" ;
+    skos:prefLabel "Bauwesen allgemein. Gesamtschrifttum und Geschichte des Bauwesens"@de .
+
+:n934
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "934" ;
+    skos:prefLabel "Bauhandwerk. Baustoffkunde. Baupraxis. Baustatik. Bauwirtschaft"@de .
+
+:n935
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "935" ;
+    skos:prefLabel "Hoch- und Tiefbau. Verkehrswegebau"@de .
+
+:n936
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "936" ;
+    skos:prefLabel "Wasserbau. Wasserwirtschaft"@de .
+
+:n937
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "937" ;
+    skos:prefLabel "Vermessung im Bauwesen "@de .
+
+:n938
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n930 ;
+    skos:notation "938" ;
+    skos:prefLabel "Umwelttechnik (Abwassertechnik, Deponietechnik, Entsorgungstechnik etc.)"@de .
+
 :n940
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n942, :n943, :n944, :n945, :n946, :n948 ;
     skos:notation "940" ;
     skos:prefLabel "Nachrichten- und Verkehrswesen"@de .
 
+:n942
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "942" ;
+    skos:prefLabel "Allgemeines. Verkehrspolitik. Strukturpolitische Aufgaben"@de .
+
+:n943
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "943" ;
+    skos:prefLabel "Eisenbahn"@de .
+
+:n944
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "944" ;
+    skos:prefLabel "Schifffahrt. Häfen. Kanäle"@de .
+
+:n945
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "945" ;
+    skos:prefLabel "Luftverkehr. Raumfahrt"@de .
+
+:n946
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "946" ;
+    skos:prefLabel "Straßenverkehr. Straßenbau"@de .
+
+:n948
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n940 ;
+    skos:notation "948" ;
+    skos:prefLabel "Nachrichtenverkehr. Post- und Fernmeldewesen. Telekommunikation. Amateurfunk. Philatelie"@de .
+
 :n950
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n951, :n952, :n954, :n955, :n956, :n957, :n959 ;
     skos:notation "950" ;
-    skos:prefLabel "Technische Chemie, Lebensmitteltechnologie, Textiltechnik"@de .
+    skos:prefLabel "Technische Chemie. Lebensmitteltechnologie. Textiltechnik und andere Technologien"@de .
+
+:n951
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "951" ;
+    skos:prefLabel "Technische Chemie"@de .
+
+:n952
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "952" ;
+    skos:prefLabel "Werkstoffkunde"@de .
+
+:n954
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "954" ;
+    skos:prefLabel "Lebensmitteltechnologie"@de .
+
+:n955
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "955" ;
+    skos:prefLabel "Textiltechnik. Drucktechnik. Papier. Farben"@de .
+
+:n956
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "956" ;
+    skos:prefLabel "Keramische Technik"@de .
+
+:n957
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "957" ;
+    skos:prefLabel "Kunststoffe. Kunststofftechnologie"@de .
+
+:n959
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n950 ;
+    skos:notation "959" ;
+    skos:prefLabel "Sonstige Technologien "@de .
 
 :n970
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n971, :n974, :n976, :n978 ;
     skos:notation "970" ;
-    skos:prefLabel "Hauswirtschaft, Kochen, Hotel- und Gaststättengewerbe"@de .
+    skos:prefLabel "Hauswirtschaft. Kochen. Hotel- und Gaststättengewerbe "@de .
+
+:n971
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n970 ;
+    skos:notation "971" ;
+    skos:prefLabel "Allgemeines"@de .
+
+:n974
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n970 ;
+    skos:notation "974" ;
+    skos:prefLabel "Haushaltswissenschaft. Kochkunst"@de .
+
+:n976
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n970 ;
+    skos:notation "976" ;
+    skos:prefLabel "Ernährungswissenschaft. Lebensmittelkunde"@de .
+
+:n978
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n970 ;
+    skos:notation "978" ;
+    skos:prefLabel "Touristik, Gastronomie, Hotellerie"@de .
 
 :n980
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "980" ;
-    skos:prefLabel "Basteln, Handarbeiten, Heimwerken"@de .
+    skos:prefLabel "Basteln. Handarbeiten. Heimwerken"@de .
 
 :n990
     a skos:Concept ;
-    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:narrower :n991, :n994, :n996 ;
     skos:notation "990" ;
-    skos:prefLabel "Sport, Spiele"@de .
+    skos:prefLabel "Sport. Spiele"@de .
+
+:n991
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n990 ;
+    skos:notation "991" ;
+    skos:prefLabel "Allgemeines. Gesamtdarstellungen und Geschichte der Sportwissenschaft. Nachschlagewerke zu Spielen."@de .
+
+:n994
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n990 ;
+    skos:notation "994" ;
+    skos:prefLabel "Einzelne Sportarten"@de .
+
+:n996
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:broader :n990 ;
+    skos:notation "996" ;
+    skos:prefLabel "Einzelne Spiele"@de .
+
