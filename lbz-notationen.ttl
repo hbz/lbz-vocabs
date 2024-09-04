@@ -369,7 +369,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n230 ;
     skos:notation "231" ;
-    skos:prefLabel "Englische Sprache und Literatur insgesamt "@de .
+    skos:prefLabel "Englische Sprache und Literatur insgesamt"@de .
 
 :n232
     a skos:Concept ;
@@ -726,7 +726,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n301, :n304, :n306, :n320, :n321, :n322, :n323, :n324, :n325, :n326, :n327, :n328, :n329 ;
     skos:notation "300" ;
-    skos:prefLabel "Archäologie. Vor- und Frühgeschichte "@de .
+    skos:prefLabel "Archäologie. Vor- und Frühgeschichte"@de .
 
 :n301
     a skos:Concept ;
@@ -1013,7 +1013,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n330 ;
     skos:notation "357" ;
-    skos:prefLabel "Restauration. Vormärz (1815 - 1848/49) "@de .
+    skos:prefLabel "Restauration. Vormärz (1815 - 1848/49)"@de .
 
 :n358
     a skos:Concept ;
@@ -1188,7 +1188,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n405, :n410, :n415, :n420, :n425 ;
     skos:notation "400" ;
-    skos:prefLabel "Philosophie. Grenzgebiete der Wissenschaft und Esoterik "@de .
+    skos:prefLabel "Philosophie. Grenzgebiete der Wissenschaft und Esoterik"@de .
 
 :n405
     a skos:Concept ;
@@ -1230,7 +1230,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n432, :n433, :n435, :n436, :n437, :n438 ;
     skos:notation "430" ;
-    skos:prefLabel "Allgemeine und vergleichende Religionswissenschaft "@de .
+    skos:prefLabel "Allgemeine und vergleichende Religionswissenschaft"@de .
 
 :n432
     a skos:Concept ;
@@ -1461,7 +1461,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n501, :n502, :n503, :n505, :n507, :n508, :n509 ;
     skos:notation "500" ;
-    skos:prefLabel "Bildende Kunst. Comics, Cartoons, Karikaturen "@de .
+    skos:prefLabel "Bildende Kunst. Comics, Cartoons, Karikaturen"@de .
 
 :n501
     a skos:Concept ;
@@ -1804,7 +1804,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n582, :n584, :n586, :n588 ;
     skos:notation "580" ;
-    skos:prefLabel "Schrift. Handschriften. Buchkunst "@de .
+    skos:prefLabel "Schrift. Handschriften. Buchkunst"@de .
 
 :n582
     a skos:Concept ;
@@ -1874,7 +1874,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n600 ;
     skos:notation "605" ;
-    skos:prefLabel "Verwaltungsrecht, Verwaltungswissenschaft "@de .
+    skos:prefLabel "Verwaltungsrecht, Verwaltungswissenschaft"@de .
 
 :n606
     a skos:Concept ;
@@ -2000,7 +2000,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n620 ;
     skos:notation "626" ;
-    skos:prefLabel "Rundfunk. Hörfunk  "@de .
+    skos:prefLabel "Rundfunk. Hörfunk "@de .
 
 :n628
     a skos:Concept ;
@@ -2070,7 +2070,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n651, :n652, :n653, :n654, :n655, :n656, :n657, :n658, :n659, :n660, :n661, :n662, :n663, :n664, :n665, :n666, :n667, :n668, :n669, :n670, :n671, :n672, :n673, :n674, :n675, :n676, :n677, :n678, :n679 ;
     skos:notation "650" ;
-    skos:prefLabel "Wirtschaft "@de .
+    skos:prefLabel "Wirtschaft"@de .
 
 :n651
     a skos:Concept ;
@@ -2280,7 +2280,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n681, :n685, :n686 ;
     skos:notation "680" ;
-    skos:prefLabel "Sondersammlung Weinliteratur "@de .
+    skos:prefLabel "Sondersammlung Weinliteratur"@de .
 
 :n681
     a skos:Concept ;
@@ -2664,7 +2664,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n821, :n824, :n826, :n828 ;
     skos:notation "820" ;
-    skos:prefLabel "Informatik, Datenverarbeitung "@de .
+    skos:prefLabel "Informatik, Datenverarbeitung"@de .
 
 :n821
     a skos:Concept ;
@@ -2727,7 +2727,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n830 ;
     skos:notation "838" ;
-    skos:prefLabel "Astronomie. Astrophysik. Geophysik "@de .
+    skos:prefLabel "Astronomie. Astrophysik. Geophysik"@de .
 
 :n840
     a skos:Concept ;
@@ -2888,7 +2888,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n901 ;
     skos:notation "900" ;
-    skos:prefLabel "Technik allgemein "@de .
+    skos:prefLabel "Technik allgemein"@de .
 
 :n901
     a skos:Concept ;
@@ -2930,7 +2930,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n910 ;
     skos:notation "915" ;
-    skos:prefLabel "Spezieller Maschinenbau "@de .
+    skos:prefLabel "Spezieller Maschinenbau"@de .
 
 :n917
     a skos:Concept ;
@@ -3042,7 +3042,7 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n930 ;
     skos:notation "937" ;
-    skos:prefLabel "Vermessung im Bauwesen "@de .
+    skos:prefLabel "Vermessung im Bauwesen"@de .
 
 :n938
     a skos:Concept ;
@@ -3154,14 +3154,14 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:broader :n950 ;
     skos:notation "959" ;
-    skos:prefLabel "Sonstige Technologien "@de .
+    skos:prefLabel "Sonstige Technologien"@de .
 
 :n970
     a skos:Concept ;
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:narrower :n971, :n974, :n976, :n978 ;
     skos:notation "970" ;
-    skos:prefLabel "Hauswirtschaft. Kochen. Hotel- und Gaststättengewerbe "@de .
+    skos:prefLabel "Hauswirtschaft. Kochen. Hotel- und Gaststättengewerbe"@de .
 
 :n971
     a skos:Concept ;
