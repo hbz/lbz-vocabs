@@ -6,7 +6,7 @@ def format_list_items(unformatted_list):
     return formatted_list
 
 
-with open("rpb-spatial.ttl", "r") as f:
+with open("rpb2_new.ttl", "r") as f:
     data = f.read()
     test_search = re.findall(r'^:n.*? \.$', data, flags=re.MULTILINE | re.DOTALL)
     prefix_matches = re.findall(r'^@prefix.+\.$\n', data, flags=re.MULTILINE)
@@ -15,6 +15,6 @@ with open("rpb-spatial.ttl", "r") as f:
     prefix_matches.insert(len(prefix_matches), "\n")
     result = prefix_matches + format_list_items(other_matches) + format_list_items(list_sort)
 
-    with open("rpb-spatial_sorted.ttl", "w") as outfile:
+    with open("rpb2_new_sorted.ttl", "w") as outfile:
         outfile.write("".join(result))
 
