@@ -853,12 +853,6 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Kirchberg / Hunsrück, Verbandsgemeinde"@de .
 
-:n14006 a skos:Concept ;
-    skos:broader :n140 ;
-    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Rhein-Hunsrück-Kreis (n140) > Simmern-Rheinböllen, Verbandsgemeinde (n14006)"@de ;
-    skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Simmern-Rheinböllen, Verbandsgemeinde"@de .
-
 :n14008 a skos:Concept ;
     skos:broader :n140 ;
     skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Rhein-Hunsrück-Kreis (n140) > Simmern-Rheinböllen, Verbandsgemeinde (n14008)"@de ;
