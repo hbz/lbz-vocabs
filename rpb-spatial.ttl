@@ -268,6 +268,11 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Erzdiözese Köln"@de .
 
+:n35    a skos:Concept ;
+        skos:broader    :n3 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Katholische Kirche / Diözese Limburg"@de .
+
 :n36 a skos:Concept ;
     skos:broader :n3 ;
     skos:closeMatch <http://d-nb.info/gnd/1081206853> ;
@@ -331,6 +336,11 @@
     skos:prefLabel "Kurpfalz"@de ;
     skos:scopeNote "10. Jh.-1801"@de .
 
+:n47 a skos:Concept ;
+    skos:broader    :n4 ;
+    skos:inScheme   <https://rpb.lobid.org/spatial> ;
+    skos:prefLabel  "Pfalz-Zweibrücken"@de .
+
 :n48 a skos:Concept ;
     skos:altLabel "Bistum Worms"@de ;
     skos:broader :n4 ;
@@ -383,6 +393,11 @@
     skos:prefLabel "Hessen-Darmstadt"@de ;
     skos:scopeNote "1806-1945"@de .
 
+:n54    a skos:Concept ;
+        skos:broader    :n4 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Staat Nassau"@de .
+
 :n55 a skos:Concept ;
     skos:altLabel "Bezirk Wiesbaden"@de,
         "Preußische Provinz Hessen-Nassau"@de,
@@ -431,6 +446,11 @@
     skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Saar-Lor-Lux (n91)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saar-Lor-Lux"@de .
+
+:n92 a skos:Concept ;
+    skos:broader    :n5 ;
+    skos:inScheme   <https://rpb.lobid.org/spatial> ;
+    skos:prefLabel  "Rhein-Main-Gebiet"@de .
 
 :n93 a skos:Concept ;
     skos:altLabel "Neckar-Rhein-Gebiet"@de,
@@ -15191,11 +15211,26 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Winterbach (Pfalz)"@de .
 
+:n4004655n2 a skos:Concept ;
+        skos:broader    :n50 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Unterelsass"@de .
+
 :n4006536n4 a skos:Concept ;
     skos:broader :n14 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Vorderpfalz (n14) > Bienwald (n4006536n4)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Bienwald"@de .
+
+:n4010909n4 a skos:Concept ;
+        skos:broader    :n15 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dahner Felsenland"@de .
+
+:n4012733n3 a skos:Concept ;
+        skos:broader    :n17 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Donnersberg"@de .
 
 :n4025288n7 a skos:Concept ;
     skos:broader :n19 ;
@@ -15251,17 +15286,32 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saargau"@de .
 
+:n4054837n5 a skos:Concept ;
+        skos:broader    :n10 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Siebengebirge"@de .
+
 :n4054887n9 a skos:Concept ;
     skos:broader :n10 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Siegerland (n4054887n9)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Siegerland"@de .
 
+:n4055608n6 a skos:Concept ;
+        skos:broader    :n19 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Soonwald"@de .
+
 :n4058411n2 a skos:Concept ;
     skos:broader :n20 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Südeifel (n4058411n2)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Südeifel"@de .
+
+:n4060881n5 a skos:Concept ;
+        skos:broader    :n4 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Regierungsbezirk Trier (1946-1999)"@de .
 
 :n4064074n7 a skos:Concept ;
     skos:broader :n20 ;
@@ -15311,6 +15361,11 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mittelrheinisches Becken"@de .
 
+:n4101955n6 a skos:Concept ;
+        skos:broader    :n10 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ober-Westerwald"@de .
+
 :n4102956n2 a skos:Concept ;
     skos:broader :n22 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22) > Pellenz (n4102956n2)"@de ;
@@ -15329,6 +15384,11 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westerwälder Seenplatte"@de .
 
+:n4108577n2 a skos:Concept ;
+        skos:broader    :n10 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Vorderwesterwald"@de .
+
 :n4109995n3 a skos:Concept ;
     skos:broader :n10 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Kannenbäckerland (n4109995n3)"@de ;
@@ -15341,11 +15401,21 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Eifel / West"@de .
 
+:n4110084n0 a skos:Concept ;
+        skos:broader    :n20 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Eifel / Ost"@de .
+
 :n4114920n8 a skos:Concept ;
     skos:broader :n22 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22) > Maifeld (n4114920n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Maifeld"@de .
+
+:n4115441n1 a skos:Concept ;
+        skos:broader    :n20 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ösling"@de .
 
 :n4117847n6 a skos:Concept ;
     skos:broader :n22 ;
@@ -15370,6 +15440,11 @@
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22) > Mittelrheintal (n4126432n0)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mittelrheintal"@de .
+
+:n4133948n4 a skos:Concept ;
+        skos:broader    :n50 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Mainzer Republik"@de .
 
 :n4205902n1 a skos:Concept ;
     skos:broader :n15 ;
@@ -15425,11 +15500,31 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Kalkeifel"@de .
 
+:n4329692n0 a skos:Concept ;
+        skos:broader    :n11 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Einrich"@de .
+
+:n4377902n5 a skos:Concept ;
+        skos:broader    :n22 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Mittelrheintal / Nord"@de .
+
+:n4393883n8 a skos:Concept ;
+        skos:broader    :n15 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Stumpfwald"@de .
+
 :n4393885n1 a skos:Concept ;
     skos:broader :n10 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Kroppacher Schweiz (n4393885n1)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Kroppacher Schweiz"@de .
+
+:n4639983n5 a skos:Concept ;
+        skos:broader    :n24 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Obermosel-Gebiet"@de .
 
 :n4439822n0 a skos:Concept ;
     skos:broader :n20 ;
@@ -15461,11 +15556,26 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Bingerwald"@de .
 
+:n4653560n3 a skos:Concept ;
+        skos:broader    :n20 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ahreifel"@de .
+
 :n4666501n8 a skos:Concept ;
     skos:broader :n20 ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Brohltal (n4666501n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Brohltal"@de .
+
+:n4678434n2 a skos:Concept ;
+        skos:broader    :n19 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Lützelsoon"@de .
+
+:n4827033n7 a skos:Concept ;
+        skos:broader    :n10 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Wildenburgisches Land"@de .
 
 :n00Sn02k2161a a skos:Concept ;
     skos:broader :n20 ;
@@ -63532,4 +63642,3 @@
     skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Südwestpfalz, Landkreis (n340) > Thaleischweiler-Wallhalben, Verbandsgemeinde (n34009) > Winterbach (Pfalz) (n34009228) > Klosterbergerhof (n340092280202)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Klosterbergerhof"@de .
-
