@@ -9,7 +9,7 @@ g = rdflib.Graph()
 
 # Load file in format ttl
 input_file = sys.argv[1]
-g.parse("./%s" % input_file, format="ttl")
+g.parse(input_file, format="ttl")
 
 # SPARQL query for URI and label of each concept
 qres = g.query(

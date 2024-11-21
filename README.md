@@ -7,9 +7,8 @@ Hinweis: Das git-Repo wurde am 2024-08-28 geklont von https://github.com/hbz/lob
 
 # Erstellen der NDJSON-Files 
 
-1. In den Ordner `scripts` wechseln: `cd scripts/`
-2. Skript ausführen mit `python3 skos2json.py <inputfile>.ttl` (ggf. auch `python skos2json.py <inputfile>.ttl`)
-3. die erzeugten Dateien befinden sich im `Output`-Ordner
+1. Skript ausführen mit `python3 scripts/skos2json.py <inputfile>.ttl` (ggf. auch `python scripts/skos2json.py <inputfile>.ttl`)
+2. die erzeugten Dateien befinden sich im `output`-Ordner
 
 ## Requirements
 * python3
