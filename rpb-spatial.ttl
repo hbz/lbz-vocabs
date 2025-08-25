@@ -4,7 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <https://rpb.lobid.org/spatial> a skos:ConceptScheme ;
-    dct:description "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)."@en ;
+    dct:description "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)."@en, "Diese Raumsystematik für Rheinland-Pfalz wurde erstellt und wird gepflegt für den Einsatz in der Rheinland-Pfälzischen Bibliographie (RPB)"@de ;
     dct:issued "2022-08-26" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:modified "2024-07-17" ;
