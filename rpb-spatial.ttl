@@ -15309,9 +15309,9 @@
 
 :n4064074n7 a skos:Concept ;
     skos:broader :n20 ;
-    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Vulkaneifel (n4064074n7)"@de ;
-    skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Vulkaneifel"@de .
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Vulkaneifel (n4064074n7)"@de ;
+            skos:inScheme <https://rpb.lobid.org/spatial> ;
+                skos:prefLabel "Vulkaneifel"@de .
 
 :n4069508n6 a skos:Concept ;
     skos:broader :n20 ;
