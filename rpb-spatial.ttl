@@ -358,143 +358,123 @@
     
 :n4031485n6 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Erzstift Köln (n4031485n6)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Erzstift Köln (n4031485n6)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Erzstift Köln"@de .
 
 :n4844580n0 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Falkenstein / Donnersbergkreis (n4844580n0)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Falkenstein / Donnersbergkreis (n4844580n0)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Falkenstein / Donnersbergkreis"@de .
 
 :n4645473n1 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Holzappel (n4645473n1)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Holzappel (n4645473n1)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Holzappel"@de .
 
 :n10181398n3 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Isenburg (n10181398n3)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Isenburg (n10181398n3)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Isenburg ; Isenburg-Büdingen"@de .
 
 :n4030052n3 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Katzenelnbogen (n4030052n3)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Katzenelnbogen (n4030052n3)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Katzenelnbogen"@de .
 
 :n7782681n4 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Manderscheid (n7782681n4)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Manderscheid (n7782681n4)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Manderscheid"@de .
 
 
 :n4116352n7 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Sayn (n4116352n7)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Sayn (n4116352n7)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Sayn ; Sayn-Altenkirchen ; Sayn-Hachenburg"@de .
 
 :n4105499n4 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Sponheim (n4105499n4)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Sponheim (n4105499n4)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Sponheim"@de .
 
 :n4062482n1 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Veldenz (n4062482n1)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Veldenz (n4062482n1)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Veldenz ; Pfalz-Veldenz"@de .
 
 
 :n4745418n0 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Virneburg (n4745418n0)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Virneburg (n4745418n0)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Virneburg"@de .
 
 :n4204925n8 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Wartenberg (n4204925n8)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Wartenberg (n4204925n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Wartenberg"@de .
 
 :n4766893n3 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Grafschaft Wied (n4766893n3)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Grafschaft Wied (n4766893n3)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Grafschaft Wied ; Wied-Neuwied ; Wied-Runkel"@de .
 
 :n4079819n7 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Herzogtum Arenberg (n4079819n7)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Herzogtum Arenberg (n4079819n7)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Herzogtum Arenberg"@de .
 
 :n4028836n5 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Herzogtum Jülich (n4028836n5)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Herzogtum Jülich (n4028836n5)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Herzogtum Jülich ; Jülich-Berg"@de .
 
 :n7731412n8 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Hessen-Rheinfels (n7731412n8)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Hessen-Rheinfels (n7731412n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hessen-Rheinfels"@de .
 
 :n4036728n9 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Luxemburg (4036728n9)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Luxemburg (4036728n9)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Luxemburg"@de .
 
 :n7575782n5 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Pfalz-Birkenfeld (7575782n5)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Pfalz-Birkenfeld (7575782n5)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Pfalz-Birkenfeld"@de .
 
 :n4045462n9 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Pfalz-Simmern (4045462n9)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Pfalz-Simmern (4045462n9)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Pfalz-Simmern"@de .
 
 :n4035201n8 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Staat-Leiningen (4035201n8)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Staat-Leiningen (4035201n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Staat Leiningen"@de .
 
 :n143317822 a skos:Concept ;
     skos:broader :n49 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > 
-Wild- und Rheingrafen (143317822)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien und Teile auswärtiger Territorien -1800 (n49) > Wild- und Rheingrafen (143317822)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Wild- und Rheingrafen"@de .
 
@@ -531,22 +511,19 @@ Wild- und Rheingrafen (143317822)"@de ;
 
 :n4225506n5 a skos:Concept ;
     skos:broader :n52 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > 
-Fürstentum Birkenfeld (n4225506n5)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > Fürstentum Birkenfeld (n4225506n5)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Fürstentum Birkenfeld"@de .
 
 :n4530479n8 a skos:Concept ;
     skos:broader :n52 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > 
-Fürstentum Lichtenberg (n4530479n8)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > Fürstentum Lichtenberg (n4530479n8)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Fürstentum Lichtenberg"@de .
 
 :n4137215n3 a skos:Concept ;
     skos:broader :n52 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > 
-Staat Berg (n4137215n3)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Kleinere Territorien des 19. und 20. Jh. (n52) > Staat Berg (n4137215n3)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Staat Berg"@de .
 
