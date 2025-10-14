@@ -114,9 +114,9 @@
     skos:altLabel "Pfälzerwald"@de ;
     skos:broader :n2 ;
     skos:closeMatch <http://d-nb.info/gnd/4045428-9> ;
-    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15)"@de ;
+    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Pfälzer Wald"@de .
+    skos:prefLabel "Pfälzerwald"@de .
 
 :n16 a skos:Concept ;
     skos:broader :n2 ;
