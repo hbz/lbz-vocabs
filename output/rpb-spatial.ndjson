@@ -13,7 +13,7 @@
 {"prefLabel":"Rheinhessisches Hügelland","uri":"https://rpb.lobid.org/spatial#n12","definition":"Landschaften in Rheinland-Pfalz (n2) > Rheinhessisches Hügelland (n12)"}
 {"prefLabel":"Mainzer Becken","uri":"https://rpb.lobid.org/spatial#n13","definition":"Landschaften in Rheinland-Pfalz (n2) > Mainzer Becken (n13)"}
 {"prefLabel":"Vorderpfalz","uri":"https://rpb.lobid.org/spatial#n14","definition":"Landschaften in Rheinland-Pfalz (n2) > Vorderpfalz (n14)"}
-{"prefLabel":"Pfälzer Wald","uri":"https://rpb.lobid.org/spatial#n15","definition":"Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15)"}
+{"prefLabel":"Pfälzerwald","uri":"https://rpb.lobid.org/spatial#n15","definition":"Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15)"}
 {"prefLabel":"Westrich","uri":"https://rpb.lobid.org/spatial#n16","definition":"Landschaften in Rheinland-Pfalz (n2) > Westrich (n16)"}
 {"prefLabel":"Nordpfälzer Bergland","uri":"https://rpb.lobid.org/spatial#n17","definition":"Landschaften in Rheinland-Pfalz (n2) > Nordpfälzer Bergland (n17)"}
 {"prefLabel":"Saar-Nahe-Bergland","uri":"https://rpb.lobid.org/spatial#n18","definition":"Landschaften in Rheinland-Pfalz (n2) > Saar-Nahe-Bergland (n18)"}
@@ -2540,9 +2540,9 @@
 {"prefLabel":"Donnersberg","uri":"https://rpb.lobid.org/spatial#n4012733n3"}
 {"prefLabel":"Hochwald / Hunsrück","uri":"https://rpb.lobid.org/spatial#n4025288n7","definition":"Landschaften in Rheinland-Pfalz (n2) > Hunsrück (n19) > Hochwald / Hunsrück (n4025288n7)"}
 {"prefLabel":"Idarwald","uri":"https://rpb.lobid.org/spatial#n4026464n6","definition":"Landschaften in Rheinland-Pfalz (n2) > Hunsrück (n19) > Idarwald (n4026464n6)"}
-{"prefLabel":"Regierungsbezirk Koblenz (1946-1999)","uri":"https://rpb.lobid.org/spatial#n4031415n7","definition":"Historische Territorien und Gebiete (n4) > Regierungsbezirk Koblenz (1946-1999) (n4031415n7)"}
+{"prefLabel":"Regierungsbezirk Koblenz (-1999)","uri":"https://rpb.lobid.org/spatial#n4031415n7","definition":"Historische Territorien und Gebiete (n4) > Regierungsbezirk Koblenz (-1999) (n4031415n7)"}
 {"prefLabel":"Mittelrhein","uri":"https://rpb.lobid.org/spatial#n4039705n1","definition":"Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22) > Mittelrhein (n4039705n1)"}
-{"prefLabel":"Regierungsbezirk Rheinhessen-Pfalz (1946-1999)","uri":"https://rpb.lobid.org/spatial#n4049765n3","definition":"Historische Territorien und Gebiete (n4) > Regierungsbezirk Rheinhessen-Pfalz (1946-1999) (n4049765n3)"}
+{"prefLabel":"Regierungsbezirk Rheinhessen-Pfalz (-1999)","uri":"https://rpb.lobid.org/spatial#n4049765n3","definition":"Historische Territorien und Gebiete (n4) > Regierungsbezirk Rheinhessen-Pfalz (-1999) (n4049765n3)"}
 {"prefLabel":"Rheinisches Schiefergebirge","uri":"https://rpb.lobid.org/spatial#n4049779n3","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland (n03) > Rheinisches Schiefergebirge (n4049779n3)"}
 {"prefLabel":"Rhein-Mosel-Département","uri":"https://rpb.lobid.org/spatial#n4049803n7","definition":"Historische Territorien und Gebiete (n4) > Französische Gebiete / 1792-1815 (n50) > Rhein-Mosel-Département (n4049803n7)"}
 {"prefLabel":"Saardepartement","uri":"https://rpb.lobid.org/spatial#n4051096n7","definition":"Historische Territorien und Gebiete (n4) > Französische Gebiete / 1792-1815 (n50) > Saardepartement (n4051096n7)"}
@@ -2551,7 +2551,7 @@
 {"prefLabel":"Siegerland","uri":"https://rpb.lobid.org/spatial#n4054887n9","definition":"Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Siegerland (n4054887n9)"}
 {"prefLabel":"Soonwald","uri":"https://rpb.lobid.org/spatial#n4055608n6"}
 {"prefLabel":"Südeifel","uri":"https://rpb.lobid.org/spatial#n4058411n2","definition":"Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Südeifel (n4058411n2)"}
-{"prefLabel":"Regierungsbezirk Trier (1946-1999)","uri":"https://rpb.lobid.org/spatial#n4060881n5"}
+{"prefLabel":"Regierungsbezirk Trier (-1999)","uri":"https://rpb.lobid.org/spatial#n4060881n5"}
 {"prefLabel":"Bitburger Land","uri":"https://rpb.lobid.org/spatial#n4069508n6","definition":"Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Bitburger Land (n4069508n6)"}
 {"prefLabel":"Pfälzer Gebrüch","uri":"https://rpb.lobid.org/spatial#n4076027n3","definition":"Landschaften in Rheinland-Pfalz (n2) > Westrich (n16) > Pfälzer Gebrüch (n4076027n3)"}
 {"prefLabel":"Deutsche Weinstraße","uri":"https://rpb.lobid.org/spatial#n4090730n2","definition":"Landschaften in Rheinland-Pfalz (n2) > Vorderpfalz (n14) > Deutsche Weinstraße (n4090730n2)"}
