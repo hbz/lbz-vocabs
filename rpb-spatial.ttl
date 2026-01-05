@@ -15385,9 +15385,9 @@
 
 :n4031415n7 a skos:Concept ;
     skos:broader :n4 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Regierungsbezirk Koblenz (1946-1999) (n4031415n7)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Regierungsbezirk Koblenz (-1999) (n4031415n7)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Regierungsbezirk Koblenz (1946-1999)"@de .
+    skos:prefLabel "Regierungsbezirk Koblenz (-1999)"@de .
 
 :n4039705n1 a skos:Concept ;
     skos:broader :n22 ;
@@ -15397,9 +15397,9 @@
 
 :n4049765n3 a skos:Concept ;
     skos:broader :n4 ;
-    skos:definition "Historische Territorien und Gebiete (n4) > Regierungsbezirk Rheinhessen-Pfalz (1946-1999) (n4049765n3)"@de ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Regierungsbezirk Rheinhessen-Pfalz (-1999) (n4049765n3)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Regierungsbezirk Rheinhessen-Pfalz (1946-1999)"@de .
+    skos:prefLabel "Regierungsbezirk Rheinhessen-Pfalz (-1999)"@de .
 
 :n4049779n3 a skos:Concept ;
     skos:broader :n03 ;
@@ -15450,7 +15450,7 @@
 :n4060881n5 a skos:Concept ;
         skos:broader    :n4 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Trier (1946-1999)"@de .
+        skos:prefLabel  "Regierungsbezirk Trier (-1999)"@de .
 
 :n4064074n7 a skos:Concept ;
     skos:broader :n20 ;
