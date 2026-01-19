@@ -1,4 +1,3 @@
-{"prefLabel":"Landeskunde","uri":"http://purl.org/lobid/rpb#n100000"}
 {"prefLabel":"Landeskunde allgemein","uri":"http://purl.org/lobid/rpb#n100100","definition":"Landeskunde (n100000) > Landeskunde allgemein (n100100)"}
 {"prefLabel":"Bibliografie","uri":"http://purl.org/lobid/rpb#n101000","definition":"Landeskunde (n100000) > Bibliografie (n101000)"}
 {"prefLabel":"Landesbeschreibung","uri":"http://purl.org/lobid/rpb#n102000","definition":"Landeskunde (n100000) > Landesbeschreibung (n102000)"}
@@ -11,7 +10,6 @@
 {"prefLabel":"Heimatpflege","uri":"http://purl.org/lobid/rpb#n105000","definition":"Landeskunde (n100000) > Heimatpflege (n105000)"}
 {"prefLabel":"Heimatverein","uri":"http://purl.org/lobid/rpb#n106000","definition":"Landeskunde (n100000) > Heimatverein (n106000)"}
 {"prefLabel":"Biografie","uri":"http://purl.org/lobid/rpb#n109000","definition":"Landeskunde (n100000) > Biografie (n109000)"}
-{"prefLabel":"Kartografie. Geodäsie","uri":"http://purl.org/lobid/rpb#n120000"}
 {"prefLabel":"Kartografie. Geodäsie allgemein","uri":"http://purl.org/lobid/rpb#n120100","definition":"Kartografie. Geodäsie (n120000) > Kartografie. Geodäsie allgemein (n120100)"}
 {"prefLabel":"Kartografie","uri":"http://purl.org/lobid/rpb#n122000","definition":"Kartografie. Geodäsie (n120000) > Kartografie (n122000)"}
 {"prefLabel":"Kartenauswertung","uri":"http://purl.org/lobid/rpb#n122030","definition":"Kartografie. Geodäsie (n120000) > Kartografie (n122000) > Kartenauswertung (n122030)"}
@@ -19,7 +17,6 @@
 {"prefLabel":"Luftbildauswertung","uri":"http://purl.org/lobid/rpb#n122070","definition":"Kartografie. Geodäsie (n120000) > Kartografie (n122000) > Luftbildauswertung (n122070)"}
 {"prefLabel":"Geodäsie","uri":"http://purl.org/lobid/rpb#n124000","definition":"Kartografie. Geodäsie (n120000) > Geodäsie (n124000)"}
 {"prefLabel":"Karte","uri":"http://purl.org/lobid/rpb#n126000","definition":"Kartografie. Geodäsie (n120000) > Karte (n126000)"}
-{"prefLabel":"Geowissenschaften","uri":"http://purl.org/lobid/rpb#n140000"}
 {"prefLabel":"Geowissenschaften allgemein","uri":"http://purl.org/lobid/rpb#n140100","definition":"Geowissenschaften (n140000) > Geowissenschaften allgemein (n140100)"}
 {"prefLabel":"Geophysik","uri":"http://purl.org/lobid/rpb#n141000","definition":"Geowissenschaften (n140000) > Geophysik (n141000)"}
 {"prefLabel":"Erdmagnetismus","uri":"http://purl.org/lobid/rpb#n141020","definition":"Geowissenschaften (n140000) > Geophysik (n141000) > Erdmagnetismus (n141020)"}
@@ -89,7 +86,6 @@
 {"prefLabel":"Klimaschwankung","uri":"http://purl.org/lobid/rpb#n142560","definition":"Geowissenschaften (n140000) > Klima (n142500) > Klimaschwankung (n142560)"}
 {"prefLabel":"Paläoklimatologie","uri":"http://purl.org/lobid/rpb#n142570","definition":"Geowissenschaften (n140000) > Klima (n142500) > Paläoklimatologie (n142570)"}
 {"prefLabel":"Geoökologie","uri":"http://purl.org/lobid/rpb#n146000","definition":"Geowissenschaften (n140000) > Geoökologie (n146000)"}
-{"prefLabel":"Biowissenschaften","uri":"http://purl.org/lobid/rpb#n160000"}
 {"prefLabel":"Biowissenschaften allgemein","uri":"http://purl.org/lobid/rpb#n160100","definition":"Biowissenschaften (n160000) > Biowissenschaften allgemein (n160100)"}
 {"prefLabel":"Biologie","uri":"http://purl.org/lobid/rpb#n161000","definition":"Biowissenschaften (n160000) > Biologie (n161000)"}
 {"prefLabel":"Ökologie","uri":"http://purl.org/lobid/rpb#n161030","definition":"Biowissenschaften (n160000) > Biologie (n161000) > Ökologie (n161030)"}
@@ -111,7 +107,6 @@
 {"prefLabel":"Menschenrasse","uri":"http://purl.org/lobid/rpb#n164020","definition":"Biowissenschaften (n160000) > Humanbiologie (n164000) > Menschenrasse (n164020)"}
 {"prefLabel":"Skelettfund","uri":"http://purl.org/lobid/rpb#n164030","definition":"Biowissenschaften (n160000) > Humanbiologie (n164000) > Skelettfund (n164030)"}
 {"prefLabel":"Paläoanthropologie","uri":"http://purl.org/lobid/rpb#n164040","definition":"Biowissenschaften (n160000) > Humanbiologie (n164000) > Paläoanthropologie (n164040)"}
-{"prefLabel":"Historische Hilfswissenschaften","uri":"http://purl.org/lobid/rpb#n200000"}
 {"prefLabel":"Historische Hilfswissenschaften allgemein","uri":"http://purl.org/lobid/rpb#n200100","definition":"Historische Hilfswissenschaften (n200000) > Historische Hilfswissenschaften allgemein (n200100)"}
 {"prefLabel":"Chronologie","uri":"http://purl.org/lobid/rpb#n202000","definition":"Historische Hilfswissenschaften (n200000) > Chronologie (n202000)"}
 {"prefLabel":"Metrologie","uri":"http://purl.org/lobid/rpb#n202500","definition":"Historische Hilfswissenschaften (n200000) > Metrologie (n202500)"}
@@ -127,7 +122,6 @@
 {"prefLabel":"Heraldik","uri":"http://purl.org/lobid/rpb#n208000","definition":"Historische Hilfswissenschaften (n200000) > Heraldik (n208000)"}
 {"prefLabel":"Flagge","uri":"http://purl.org/lobid/rpb#n208500","definition":"Historische Hilfswissenschaften (n200000) > Heraldik (n208000) > Flagge (n208500)"}
 {"prefLabel":"Orden / Ehrenzeichen","uri":"http://purl.org/lobid/rpb#n209000","definition":"Historische Hilfswissenschaften (n200000) > Orden / Ehrenzeichen (n209000)"}
-{"prefLabel":"Archiv. Museum","uri":"http://purl.org/lobid/rpb#n210000"}
 {"prefLabel":"Archiv. Museum allgemein","uri":"http://purl.org/lobid/rpb#n210100","definition":"Archiv. Museum (n210000) > Archiv. Museum allgemein (n210100)"}
 {"prefLabel":"Archiv","uri":"http://purl.org/lobid/rpb#n213000","definition":"Archiv. Museum (n210000) > Archiv (n213000)"}
 {"prefLabel":"Bundesarchiv Koblenz","uri":"http://purl.org/lobid/rpb#n213010","definition":"Archiv. Museum (n210000) > Archiv (n213000) > Bundesarchiv Koblenz (n213010)"}
@@ -156,7 +150,6 @@
 {"prefLabel":"Historisches Museum. Heimatmuseum","uri":"http://purl.org/lobid/rpb#n217040","definition":"Archiv. Museum (n210000) > Museum (n217000) > Historisches Museum. Heimatmuseum (n217040)"}
 {"prefLabel":"Volkskundemuseum","uri":"http://purl.org/lobid/rpb#n217050","definition":"Archiv. Museum (n210000) > Museum (n217000) > Volkskundemuseum (n217050)"}
 {"prefLabel":"Sonstige Museen","uri":"http://purl.org/lobid/rpb#n217090","definition":"Archiv. Museum (n210000) > Museum (n217000) > Sonstige Museen (n217090)"}
-{"prefLabel":"Vor- und Frühgeschichte. Archäologie","uri":"http://purl.org/lobid/rpb#n220000"}
 {"prefLabel":"Vor- und Frühgeschichte. Archäologie allgemein","uri":"http://purl.org/lobid/rpb#n220100","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Vor- und Frühgeschichte. Archäologie allgemein (n220100)"}
 {"prefLabel":"Archäologie","uri":"http://purl.org/lobid/rpb#n220500","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Archäologie (n220500)"}
 {"prefLabel":"Vor- und Frühgeschichte","uri":"http://purl.org/lobid/rpb#n221000","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Vor- und Frühgeschichte (n221000)"}
@@ -190,7 +183,6 @@
 {"prefLabel":"Bestattung","uri":"http://purl.org/lobid/rpb#n228020","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Mittelalterliche Archäologie. Neuzeitliche Archäologie (n228000) > Bestattung (n228020)"}
 {"prefLabel":"Funde","uri":"http://purl.org/lobid/rpb#n228030","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Mittelalterliche Archäologie. Neuzeitliche Archäologie (n228000) > Funde (n228030)"}
 {"prefLabel":"Industriearchäologie","uri":"http://purl.org/lobid/rpb#n228080","definition":"Vor- und Frühgeschichte. Archäologie (n220000) > Mittelalterliche Archäologie. Neuzeitliche Archäologie (n228000) > Industriearchäologie (n228080)"}
-{"prefLabel":"Geschichte","uri":"http://purl.org/lobid/rpb#n240000"}
 {"prefLabel":"Quelle","uri":"http://purl.org/lobid/rpb#n240100","definition":"Geschichte (n240000) > Quelle (n240100)"}
 {"prefLabel":"Geschichtsschreibung","uri":"http://purl.org/lobid/rpb#n240200","definition":"Geschichte (n240000) > Geschichtsschreibung (n240200)"}
 {"prefLabel":"Regionalgeschichte","uri":"http://purl.org/lobid/rpb#n240300","definition":"Geschichte (n240000) > Regionalgeschichte (n240300)"}
@@ -257,7 +249,6 @@
 {"prefLabel":"Rheinhessen / Geschichte 1945-","uri":"http://purl.org/lobid/rpb#n248300","definition":"Geschichte (n240000) > Rheinhessen / Geschichte 1945- (n248300)"}
 {"prefLabel":"Pfalz / Geschichte 1945-","uri":"http://purl.org/lobid/rpb#n248500","definition":"Geschichte (n240000) > Pfalz / Geschichte 1945- (n248500)"}
 {"prefLabel":"Rheinland-Pfalz / Geschichte 1947-","uri":"http://purl.org/lobid/rpb#n249100","definition":"Geschichte (n240000) > Rheinland-Pfalz / Geschichte 1947- (n249100)"}
-{"prefLabel":"Militär- und Wehrwesen","uri":"http://purl.org/lobid/rpb#n260000"}
 {"prefLabel":"Militär- und Wehrwesen allgemein","uri":"http://purl.org/lobid/rpb#n260100","definition":"Militär- und Wehrwesen (n260000) > Militär- und Wehrwesen allgemein (n260100)"}
 {"prefLabel":"Militär","uri":"http://purl.org/lobid/rpb#n262000","definition":"Militär- und Wehrwesen (n260000) > Militär (n262000)"}
 {"prefLabel":"Militärbau","uri":"http://purl.org/lobid/rpb#n262010","definition":"Militär- und Wehrwesen (n260000) > Militär (n262000) > Militärbau (n262010)"}
@@ -279,7 +270,6 @@
 {"prefLabel":"Ausländisches Militär","uri":"http://purl.org/lobid/rpb#n263050","definition":"Militär- und Wehrwesen (n260000) > Wehrwesen (n263000) > Ausländisches Militär (n263050)"}
 {"prefLabel":"Deutschland / Bundeswehr","uri":"http://purl.org/lobid/rpb#n263060","definition":"Militär- und Wehrwesen (n260000) > Wehrwesen (n263000) > Deutschland / Bundeswehr (n263060)"}
 {"prefLabel":"Soldat","uri":"http://purl.org/lobid/rpb#n263090","definition":"Militär- und Wehrwesen (n260000) > Wehrwesen (n263000) > Soldat (n263090)"}
-{"prefLabel":"Staat. Politik","uri":"http://purl.org/lobid/rpb#n400000"}
 {"prefLabel":"Staat. Politik allgemein","uri":"http://purl.org/lobid/rpb#n400100","definition":"Staat. Politik (n400000) > Staat. Politik allgemein (n400100)"}
 {"prefLabel":"Staatsgrundlage","uri":"http://purl.org/lobid/rpb#n402000","definition":"Staat. Politik (n400000) > Staatsgrundlage (n402000)"}
 {"prefLabel":"Staatsrecht","uri":"http://purl.org/lobid/rpb#n402020","definition":"Staat. Politik (n400000) > Staatsgrundlage (n402000) > Staatsrecht (n402020)"}
@@ -331,7 +321,6 @@
 {"prefLabel":"Kreistag / Wahl","uri":"http://purl.org/lobid/rpb#n406370","definition":"Staat. Politik (n400000) > Politische Willensbildung (n406000) > Wahl (n406300) > Kreistag / Wahl (n406370)"}
 {"prefLabel":"Bezirkstag / Wahl","uri":"http://purl.org/lobid/rpb#n406380","definition":"Staat. Politik (n400000) > Politische Willensbildung (n406000) > Wahl (n406300) > Bezirkstag / Wahl (n406380)"}
 {"prefLabel":"Kommunalwahl","uri":"http://purl.org/lobid/rpb#n406390","definition":"Staat. Politik (n400000) > Politische Willensbildung (n406000) > Wahl (n406300) > Kommunalwahl (n406390)"}
-{"prefLabel":"Verwaltung","uri":"http://purl.org/lobid/rpb#n420000"}
 {"prefLabel":"Verwaltung allgemein","uri":"http://purl.org/lobid/rpb#n420100","definition":"Verwaltung (n420000) > Verwaltung allgemein (n420100)"}
 {"prefLabel":"Verwaltungsrecht","uri":"http://purl.org/lobid/rpb#n421000","definition":"Verwaltung (n420000) > Verwaltungsrecht (n421000)"}
 {"prefLabel":"Verwaltungskontrolle","uri":"http://purl.org/lobid/rpb#n421400","definition":"Verwaltung (n420000) > Verwaltungskontrolle (n421400)"}
@@ -399,7 +388,6 @@
 {"prefLabel":"Rettungswesen","uri":"http://purl.org/lobid/rpb#n428076","definition":"Verwaltung (n420000) > Sicherheit und Ordnung (n428000) > Sicherheitsbehörde (n428070) > Rettungswesen (n428076)"}
 {"prefLabel":"Katastrophe. Unfall","uri":"http://purl.org/lobid/rpb#n428078","definition":"Verwaltung (n420000) > Sicherheit und Ordnung (n428000) > Sicherheitsbehörde (n428070) > Katastrophe. Unfall (n428078)"}
 {"prefLabel":"Friedhofsordnung","uri":"http://purl.org/lobid/rpb#n428080","definition":"Verwaltung (n420000) > Sicherheit und Ordnung (n428000) > Friedhofsordnung (n428080)"}
-{"prefLabel":"Recht","uri":"http://purl.org/lobid/rpb#n440000"}
 {"prefLabel":"Recht allgemein","uri":"http://purl.org/lobid/rpb#n440100","definition":"Recht (n440000) > Recht allgemein (n440100)"}
 {"prefLabel":"Recht / Geschichte","uri":"http://purl.org/lobid/rpb#n442000","definition":"Recht (n440000) > Recht / Geschichte (n442000)"}
 {"prefLabel":"Recht / Geschichte / Quelle","uri":"http://purl.org/lobid/rpb#n442050","definition":"Recht (n440000) > Recht / Geschichte (n442000) > Recht / Geschichte / Quelle (n442050)"}
@@ -419,7 +407,6 @@
 {"prefLabel":"Sozialgerichtsbarkeit","uri":"http://purl.org/lobid/rpb#n446080","definition":"Recht (n440000) > Gerichtsbarkeit (n446000) > Sozialgerichtsbarkeit (n446080)"}
 {"prefLabel":"Rechtsprechung","uri":"http://purl.org/lobid/rpb#n447000","definition":"Recht (n440000) > Rechtsprechung (n447000)"}
 {"prefLabel":"Rechtspflege","uri":"http://purl.org/lobid/rpb#n448000","definition":"Recht (n440000) > Rechtspflege (n448000)"}
-{"prefLabel":"Bevölkerung","uri":"http://purl.org/lobid/rpb#n500000"}
 {"prefLabel":"Bevölkerung allgemein","uri":"http://purl.org/lobid/rpb#n500100","definition":"Bevölkerung (n500000) > Bevölkerung allgemein (n500100)"}
 {"prefLabel":"Bevölkerung / Geschichte","uri":"http://purl.org/lobid/rpb#n502000","definition":"Bevölkerung (n500000) > Bevölkerung / Geschichte (n502000)"}
 {"prefLabel":"Bevölkerungsstruktur","uri":"http://purl.org/lobid/rpb#n503000","definition":"Bevölkerung (n500000) > Bevölkerungsstruktur (n503000)"}
@@ -443,7 +430,6 @@
 {"prefLabel":"Auswanderung","uri":"http://purl.org/lobid/rpb#n503430","definition":"Bevölkerung (n500000) > Migration (n503400) > Auswanderung (n503430)"}
 {"prefLabel":"Einwanderung","uri":"http://purl.org/lobid/rpb#n503440","definition":"Bevölkerung (n500000) > Migration (n503400) > Einwanderung (n503440)"}
 {"prefLabel":"Bevölkerungsdichte","uri":"http://purl.org/lobid/rpb#n503600","definition":"Bevölkerung (n500000) > Bevölkerungsdichte (n503600)"}
-{"prefLabel":"Sozialwesen","uri":"http://purl.org/lobid/rpb#n520000"}
 {"prefLabel":"Sozialwesen allgemein","uri":"http://purl.org/lobid/rpb#n520100","definition":"Sozialwesen (n520000) > Sozialwesen allgemein (n520100)"}
 {"prefLabel":"Sozialpolitik","uri":"http://purl.org/lobid/rpb#n521000","definition":"Sozialwesen (n520000) > Sozialpolitik (n521000)"}
 {"prefLabel":"Sozialrecht","uri":"http://purl.org/lobid/rpb#n521200","definition":"Sozialwesen (n520000) > Sozialrecht (n521200)"}
@@ -474,7 +460,6 @@
 {"prefLabel":"Erziehungsberatung","uri":"http://purl.org/lobid/rpb#n524060","definition":"Sozialwesen (n520000) > Sozialpädagogik (n524000) > Erziehungsberatung (n524060)"}
 {"prefLabel":"Familienfürsorge","uri":"http://purl.org/lobid/rpb#n524070","definition":"Sozialwesen (n520000) > Sozialpädagogik (n524000) > Familienfürsorge (n524070)"}
 {"prefLabel":"Berufsbetreuung","uri":"http://purl.org/lobid/rpb#n524080","definition":"Sozialwesen (n520000) > Sozialpädagogik (n524000) > Berufsbetreuung (n524080)"}
-{"prefLabel":"Gesundheitswesen","uri":"http://purl.org/lobid/rpb#n530000"}
 {"prefLabel":"Gesundheitswesen allgemein","uri":"http://purl.org/lobid/rpb#n530100","definition":"Gesundheitswesen (n530000) > Gesundheitswesen allgemein (n530100)"}
 {"prefLabel":"Medizin","uri":"http://purl.org/lobid/rpb#n532000","definition":"Gesundheitswesen (n530000) > Medizin (n532000)"}
 {"prefLabel":"Medizin / Geschichte","uri":"http://purl.org/lobid/rpb#n532010","definition":"Gesundheitswesen (n530000) > Medizin (n532000) > Medizin / Geschichte (n532010)"}
@@ -491,7 +476,6 @@
 {"prefLabel":"Psychiatrie","uri":"http://purl.org/lobid/rpb#n534080","definition":"Gesundheitswesen (n530000) > Krankenversorgung (n534000) > Psychiatrie (n534080)"}
 {"prefLabel":"Hygiene","uri":"http://purl.org/lobid/rpb#n535000","definition":"Gesundheitswesen (n530000) > Hygiene (n535000)"}
 {"prefLabel":"Veterinärwesen","uri":"http://purl.org/lobid/rpb#n537000","definition":"Gesundheitswesen (n530000) > Veterinärwesen (n537000)"}
-{"prefLabel":"Wirtschaft","uri":"http://purl.org/lobid/rpb#n540000"}
 {"prefLabel":"Wirtschaft allgemein","uri":"http://purl.org/lobid/rpb#n540100","definition":"Wirtschaft (n540000) > Wirtschaft allgemein (n540100)"}
 {"prefLabel":"Wirtschaftspolitik","uri":"http://purl.org/lobid/rpb#n541000","definition":"Wirtschaft (n540000) > Wirtschaftspolitik (n541000)"}
 {"prefLabel":"Wirtschaftsrecht","uri":"http://purl.org/lobid/rpb#n541500","definition":"Wirtschaft (n540000) > Wirtschaftsrecht (n541500)"}
@@ -604,7 +588,6 @@
 {"prefLabel":"Naherholung","uri":"http://purl.org/lobid/rpb#n548830","definition":"Wirtschaft (n540000) > Tourismus (n548800) > Naherholung (n548830)"}
 {"prefLabel":"Gastgewerbe","uri":"http://purl.org/lobid/rpb#n548840","definition":"Wirtschaft (n540000) > Tourismus (n548800) > Gastgewerbe (n548840)"}
 {"prefLabel":"Jugendherberge","uri":"http://purl.org/lobid/rpb#n548870","definition":"Wirtschaft (n540000) > Tourismus (n548800) > Jugendherberge (n548870)"}
-{"prefLabel":"Verkehr","uri":"http://purl.org/lobid/rpb#n550000"}
 {"prefLabel":"Verkehr allgemein","uri":"http://purl.org/lobid/rpb#n550100","definition":"Verkehr (n550000) > Verkehr allgemein (n550100)"}
 {"prefLabel":"Verkehrsrecht","uri":"http://purl.org/lobid/rpb#n551000","definition":"Verkehr (n550000) > Verkehrsrecht (n551000)"}
 {"prefLabel":"Verkehr / Geschichte","uri":"http://purl.org/lobid/rpb#n552000","definition":"Verkehr (n550000) > Verkehr / Geschichte (n552000)"}
@@ -621,7 +604,6 @@
 {"prefLabel":"Post / Geschichte","uri":"http://purl.org/lobid/rpb#n558020","definition":"Verkehr (n550000) > Post. Fernmeldewesen (n558000) > Post / Geschichte (n558020)"}
 {"prefLabel":"Briefmarke","uri":"http://purl.org/lobid/rpb#n558040","definition":"Verkehr (n550000) > Post. Fernmeldewesen (n558000) > Briefmarke (n558040)"}
 {"prefLabel":"Fernmeldewesen","uri":"http://purl.org/lobid/rpb#n558050","definition":"Verkehr (n550000) > Post. Fernmeldewesen (n558000) > Fernmeldewesen (n558050)"}
-{"prefLabel":"Siedlung","uri":"http://purl.org/lobid/rpb#n560000"}
 {"prefLabel":"Siedlung allgemein","uri":"http://purl.org/lobid/rpb#n560100","definition":"Siedlung (n560000) > Siedlung allgemein (n560100)"}
 {"prefLabel":"Siedlung / Geschichte","uri":"http://purl.org/lobid/rpb#n562000","definition":"Siedlung (n560000) > Siedlung / Geschichte (n562000)"}
 {"prefLabel":"Wüstung","uri":"http://purl.org/lobid/rpb#n562040","definition":"Siedlung (n560000) > Siedlung / Geschichte (n562000) > Wüstung (n562040)"}
@@ -653,7 +635,6 @@
 {"prefLabel":"Verstädterung","uri":"http://purl.org/lobid/rpb#n566060","definition":"Siedlung (n560000) > Stadt (n566000) > Verstädterung (n566060)"}
 {"prefLabel":"Ballungsraum","uri":"http://purl.org/lobid/rpb#n566070","definition":"Siedlung (n560000) > Stadt (n566000) > Ballungsraum (n566070)"}
 {"prefLabel":"Stadt / Umland","uri":"http://purl.org/lobid/rpb#n566080","definition":"Siedlung (n560000) > Stadt (n566000) > Stadt / Umland (n566080)"}
-{"prefLabel":"Raumordnung und Städtebau","uri":"http://purl.org/lobid/rpb#n570000"}
 {"prefLabel":"Raumordnung und Städtebau allgemein","uri":"http://purl.org/lobid/rpb#n570100","definition":"Raumordnung und Städtebau (n570000) > Raumordnung und Städtebau allgemein (n570100)"}
 {"prefLabel":"Raumordnung","uri":"http://purl.org/lobid/rpb#n572000","definition":"Raumordnung und Städtebau (n570000) > Raumordnung (n572000)"}
 {"prefLabel":"Landesplanung","uri":"http://purl.org/lobid/rpb#n572020","definition":"Raumordnung und Städtebau (n570000) > Raumordnung (n572000) > Landesplanung (n572020)"}
@@ -667,7 +648,6 @@
 {"prefLabel":"Straßenbau","uri":"http://purl.org/lobid/rpb#n574040","definition":"Raumordnung und Städtebau (n570000) > Bauwesen (n574000) > Straßenbau (n574040)"}
 {"prefLabel":"Wohnungsbau","uri":"http://purl.org/lobid/rpb#n574050","definition":"Raumordnung und Städtebau (n570000) > Bauwesen (n574000) > Wohnungsbau (n574050)"}
 {"prefLabel":"Wohnungswirtschaft","uri":"http://purl.org/lobid/rpb#n574060","definition":"Raumordnung und Städtebau (n570000) > Bauwesen (n574000) > Wohnungswirtschaft (n574060)"}
-{"prefLabel":"Umwelt- und Naturschutz","uri":"http://purl.org/lobid/rpb#n580000"}
 {"prefLabel":"Umwelt- und Naturschutz allgemein","uri":"http://purl.org/lobid/rpb#n580100","definition":"Umwelt- und Naturschutz (n580000) > Umwelt- und Naturschutz allgemein (n580100)"}
 {"prefLabel":"Umweltschutz","uri":"http://purl.org/lobid/rpb#n582000","definition":"Umwelt- und Naturschutz (n580000) > Umweltschutz (n582000)"}
 {"prefLabel":"Klimaschutz","uri":"http://purl.org/lobid/rpb#n582010","definition":"Umwelt- und Naturschutz (n580000) > Umweltschutz (n582000) > Klimaschutz (n582010)"}
@@ -692,7 +672,6 @@
 {"prefLabel":"Botanischer Garten","uri":"http://purl.org/lobid/rpb#n586030","definition":"Umwelt- und Naturschutz (n580000) > Grünanlage (n586000) > Botanischer Garten (n586030)"}
 {"prefLabel":"Zoologischer Garten","uri":"http://purl.org/lobid/rpb#n586040","definition":"Umwelt- und Naturschutz (n580000) > Grünanlage (n586000) > Zoologischer Garten (n586040)"}
 {"prefLabel":"Gartenbauausstellung","uri":"http://purl.org/lobid/rpb#n586080","definition":"Umwelt- und Naturschutz (n580000) > Grünanlage (n586000) > Gartenbauausstellung (n586080)"}
-{"prefLabel":"Kirche","uri":"http://purl.org/lobid/rpb#n610000"}
 {"prefLabel":"Kirche allgemein","uri":"http://purl.org/lobid/rpb#n610100","definition":"Kirche (n610000) > Kirche allgemein (n610100)"}
 {"prefLabel":"Katholische Kirche","uri":"http://purl.org/lobid/rpb#n611000","definition":"Kirche (n610000) > Katholische Kirche (n611000)"}
 {"prefLabel":"Kirchengeschichte","uri":"http://purl.org/lobid/rpb#n611010","definition":"Kirche (n610000) > Katholische Kirche (n611000) > Kirchengeschichte (n611010)"}
@@ -742,18 +721,15 @@
 {"prefLabel":"Bestattung","uri":"http://purl.org/lobid/rpb#n617000","definition":"Kirche (n610000) > Bestattung (n617000)"}
 {"prefLabel":"Friedhof","uri":"http://purl.org/lobid/rpb#n617030","definition":"Kirche (n610000) > Bestattung (n617000) > Friedhof (n617030)"}
 {"prefLabel":"Grabmal","uri":"http://purl.org/lobid/rpb#n617050","definition":"Kirche (n610000) > Bestattung (n617000) > Grabmal (n617050)"}
-{"prefLabel":"Juden","uri":"http://purl.org/lobid/rpb#n630000"}
 {"prefLabel":"Juden allgemein","uri":"http://purl.org/lobid/rpb#n630100","definition":"Juden (n630000) > Juden allgemein (n630100)"}
 {"prefLabel":"Judentum","uri":"http://purl.org/lobid/rpb#n631000","definition":"Juden (n630000) > Judentum (n631000)"}
 {"prefLabel":"Juden / Geschichte","uri":"http://purl.org/lobid/rpb#n632000","definition":"Juden (n630000) > Juden / Geschichte (n632000)"}
 {"prefLabel":"Judenverfolgung","uri":"http://purl.org/lobid/rpb#n632050","definition":"Juden (n630000) > Juden / Geschichte (n632000) > Judenverfolgung (n632050)"}
-{"prefLabel":"Nichtchristliche Religion","uri":"http://purl.org/lobid/rpb#n650000"}
 {"prefLabel":"Nichtchristliche Religion allgemein","uri":"http://purl.org/lobid/rpb#n651000","definition":"Nichtchristliche Religion (n650000) > Nichtchristliche Religion allgemein (n651000)"}
 {"prefLabel":"Islam","uri":"http://purl.org/lobid/rpb#n651020","definition":"Nichtchristliche Religion (n650000) > Nichtchristliche Religion allgemein (n651000) > Islam (n651020)"}
 {"prefLabel":"Buddhismus","uri":"http://purl.org/lobid/rpb#n651030","definition":"Nichtchristliche Religion (n650000) > Nichtchristliche Religion allgemein (n651000) > Buddhismus (n651030)"}
 {"prefLabel":"Weltanschauungsgemeinschaft","uri":"http://purl.org/lobid/rpb#n655000","definition":"Nichtchristliche Religion (n650000) > Weltanschauungsgemeinschaft (n655000)"}
 {"prefLabel":"Freimaurer","uri":"http://purl.org/lobid/rpb#n655030","definition":"Nichtchristliche Religion (n650000) > Weltanschauungsgemeinschaft (n655000) > Freimaurer (n655030)"}
-{"prefLabel":"Volkskunde","uri":"http://purl.org/lobid/rpb#n700000"}
 {"prefLabel":"Volkskunde allgemein","uri":"http://purl.org/lobid/rpb#n700100","definition":"Volkskunde (n700000) > Volkskunde allgemein (n700100)"}
 {"prefLabel":"Alltag","uri":"http://purl.org/lobid/rpb#n702000","definition":"Volkskunde (n700000) > Alltag (n702000)"}
 {"prefLabel":"Brauch","uri":"http://purl.org/lobid/rpb#n704000","definition":"Volkskunde (n700000) > Brauch (n704000)"}
@@ -820,7 +796,6 @@
 {"prefLabel":"Kostümkunde","uri":"http://purl.org/lobid/rpb#n708420","definition":"Volkskunde (n700000) > Kleidung (n708400) > Kostümkunde (n708420)"}
 {"prefLabel":"Tracht","uri":"http://purl.org/lobid/rpb#n708430","definition":"Volkskunde (n700000) > Kleidung (n708400) > Tracht (n708430)"}
 {"prefLabel":"Schmuck","uri":"http://purl.org/lobid/rpb#n708450","definition":"Volkskunde (n700000) > Kleidung (n708400) > Schmuck (n708450)"}
-{"prefLabel":"Gesellschaft","uri":"http://purl.org/lobid/rpb#n720000"}
 {"prefLabel":"Gesellschaft allgemein","uri":"http://purl.org/lobid/rpb#n720100","definition":"Gesellschaft (n720000) > Gesellschaft allgemein (n720100)"}
 {"prefLabel":"Sozialgeschichte","uri":"http://purl.org/lobid/rpb#n722000","definition":"Gesellschaft (n720000) > Sozialgeschichte (n722000)"}
 {"prefLabel":"Sozialstruktur","uri":"http://purl.org/lobid/rpb#n724000","definition":"Gesellschaft (n720000) > Sozialstruktur (n724000)"}
@@ -840,7 +815,6 @@
 {"prefLabel":"Ausländerin. Ausländer","uri":"http://purl.org/lobid/rpb#n725070","definition":"Gesellschaft (n720000) > Gruppe (n725000) > Ausländerin. Ausländer (n725070)"}
 {"prefLabel":"Behinderter Mensch","uri":"http://purl.org/lobid/rpb#n725080","definition":"Gesellschaft (n720000) > Gruppe (n725000) > Behinderter Mensch (n725080)"}
 {"prefLabel":"Sozialer Wandel","uri":"http://purl.org/lobid/rpb#n726000","definition":"Gesellschaft (n720000) > Sozialer Wandel (n726000)"}
-{"prefLabel":"Kultur und Freizeit","uri":"http://purl.org/lobid/rpb#n730000"}
 {"prefLabel":"Kultur und Freizeit allgemein","uri":"http://purl.org/lobid/rpb#n730100","definition":"Kultur und Freizeit (n730000) > Kultur und Freizeit allgemein (n730100)"}
 {"prefLabel":"Kulturpolitik","uri":"http://purl.org/lobid/rpb#n731000","definition":"Kultur und Freizeit (n730000) > Kulturpolitik (n731000)"}
 {"prefLabel":"Kulturgeschichte","uri":"http://purl.org/lobid/rpb#n732000","definition":"Kultur und Freizeit (n730000) > Kulturgeschichte (n732000)"}
@@ -857,7 +831,6 @@
 {"prefLabel":"Sportart","uri":"http://purl.org/lobid/rpb#n736030","definition":"Kultur und Freizeit (n730000) > Sport und Spiel (n736000) > Sportart (n736030)"}
 {"prefLabel":"Sportverein","uri":"http://purl.org/lobid/rpb#n736050","definition":"Kultur und Freizeit (n730000) > Sport und Spiel (n736000) > Sportverein (n736050)"}
 {"prefLabel":"Sportlerin. Sportler","uri":"http://purl.org/lobid/rpb#n736080","definition":"Kultur und Freizeit (n730000) > Sport und Spiel (n736000) > Sportlerin. Sportler (n736080)"}
-{"prefLabel":"Sprache","uri":"http://purl.org/lobid/rpb#n740000"}
 {"prefLabel":"Sprache allgemein","uri":"http://purl.org/lobid/rpb#n740100","definition":"Sprache (n740000) > Sprache allgemein (n740100)"}
 {"prefLabel":"Sprache / Geschichte","uri":"http://purl.org/lobid/rpb#n742000","definition":"Sprache (n740000) > Sprache / Geschichte (n742000)"}
 {"prefLabel":"Grammatik","uri":"http://purl.org/lobid/rpb#n743000","definition":"Sprache (n740000) > Grammatik (n743000)"}
@@ -883,7 +856,6 @@
 {"prefLabel":"Spracherwerb","uri":"http://purl.org/lobid/rpb#n747040","definition":"Sprache (n740000) > Soziolinguistik (n747000) > Spracherwerb (n747040)"}
 {"prefLabel":"Sprachunterricht","uri":"http://purl.org/lobid/rpb#n747050","definition":"Sprache (n740000) > Soziolinguistik (n747000) > Sprachunterricht (n747050)"}
 {"prefLabel":"Sprachpflege","uri":"http://purl.org/lobid/rpb#n747060","definition":"Sprache (n740000) > Soziolinguistik (n747000) > Sprachpflege (n747060)"}
-{"prefLabel":"Literatur","uri":"http://purl.org/lobid/rpb#n760000"}
 {"prefLabel":"Literatur allgemein","uri":"http://purl.org/lobid/rpb#n760100","definition":"Literatur (n760000) > Literatur allgemein (n760100)"}
 {"prefLabel":"Literaturwissenschaft","uri":"http://purl.org/lobid/rpb#n761000","definition":"Literatur (n760000) > Literaturwissenschaft (n761000)"}
 {"prefLabel":"Literaturgeographie","uri":"http://purl.org/lobid/rpb#n761020","definition":"Literatur (n760000) > Literaturwissenschaft (n761000) > Literaturgeographie (n761020)"}
@@ -903,7 +875,6 @@
 {"prefLabel":"Drama","uri":"http://purl.org/lobid/rpb#n769030","definition":"Literatur (n760000) > Literaturgattung (n769000) > Drama (n769030)"}
 {"prefLabel":"Epik","uri":"http://purl.org/lobid/rpb#n769040","definition":"Literatur (n760000) > Literaturgattung (n769000) > Epik (n769040)"}
 {"prefLabel":"Kurzform","uri":"http://purl.org/lobid/rpb#n769050","definition":"Literatur (n760000) > Literaturgattung (n769000) > Kurzform (n769050)"}
-{"prefLabel":"Bildung. Erziehung","uri":"http://purl.org/lobid/rpb#n780000"}
 {"prefLabel":"Bildung. Erziehung allgemein","uri":"http://purl.org/lobid/rpb#n780100","definition":"Bildung. Erziehung (n780000) > Bildung. Erziehung allgemein (n780100)"}
 {"prefLabel":"Bildungspolitik","uri":"http://purl.org/lobid/rpb#n781000","definition":"Bildung. Erziehung (n780000) > Bildungspolitik (n781000)"}
 {"prefLabel":"Ausbildungsförderung","uri":"http://purl.org/lobid/rpb#n781040","definition":"Bildung. Erziehung (n780000) > Bildungspolitik (n781000) > Ausbildungsförderung (n781040)"}
@@ -955,7 +926,6 @@
 {"prefLabel":"Nichtstaatliche Berufsschule","uri":"http://purl.org/lobid/rpb#n785080","definition":"Bildung. Erziehung (n780000) > Berufsbildende Schule (n785000) > Nichtstaatliche Berufsschule (n785080)"}
 {"prefLabel":"Berufsausbildung","uri":"http://purl.org/lobid/rpb#n785500","definition":"Bildung. Erziehung (n780000) > Berufsausbildung (n785500)"}
 {"prefLabel":"Außerschulische Bildung","uri":"http://purl.org/lobid/rpb#n786000","definition":"Bildung. Erziehung (n780000) > Außerschulische Bildung (n786000)"}
-{"prefLabel":"Hochschule. Wissenschaft","uri":"http://purl.org/lobid/rpb#n790000"}
 {"prefLabel":"Hochschule. Wissenschaft allgemein","uri":"http://purl.org/lobid/rpb#n790100","definition":"Hochschule. Wissenschaft (n790000) > Hochschule. Wissenschaft allgemein (n790100)"}
 {"prefLabel":"Hochschulrecht","uri":"http://purl.org/lobid/rpb#n791000","definition":"Hochschule. Wissenschaft (n790000) > Hochschulrecht (n791000)"}
 {"prefLabel":"Hochschulpolitik","uri":"http://purl.org/lobid/rpb#n792000","definition":"Hochschule. Wissenschaft (n790000) > Hochschulpolitik (n792000)"}
@@ -967,7 +937,6 @@
 {"prefLabel":"Außeruniversitäre Forschung","uri":"http://purl.org/lobid/rpb#n798200","definition":"Hochschule. Wissenschaft (n790000) > Außeruniversitäre Forschung (n798200)"}
 {"prefLabel":"Wissenschaftsförderung","uri":"http://purl.org/lobid/rpb#n799000","definition":"Hochschule. Wissenschaft (n790000) > Wissenschaftsförderung (n799000)"}
 {"prefLabel":"Wissenschaftliche Gesellschaft","uri":"http://purl.org/lobid/rpb#n799200","definition":"Hochschule. Wissenschaft (n790000) > Wissenschaftsförderung (n799000) > Wissenschaftliche Gesellschaft (n799200)"}
-{"prefLabel":"Darstellende Kunst","uri":"http://purl.org/lobid/rpb#n800000"}
 {"prefLabel":"Darstellende Kunst allgemein","uri":"http://purl.org/lobid/rpb#n800100","definition":"Darstellende Kunst (n800000) > Darstellende Kunst allgemein (n800100)"}
 {"prefLabel":"Theater","uri":"http://purl.org/lobid/rpb#n802000","definition":"Darstellende Kunst (n800000) > Theater (n802000)"}
 {"prefLabel":"Theater / Geschichte","uri":"http://purl.org/lobid/rpb#n802020","definition":"Darstellende Kunst (n800000) > Theater (n802000) > Theater / Geschichte (n802020)"}
@@ -982,7 +951,6 @@
 {"prefLabel":"Filmtheater","uri":"http://purl.org/lobid/rpb#n804020","definition":"Darstellende Kunst (n800000) > Film (n804000) > Filmtheater (n804020)"}
 {"prefLabel":"Kleinkunst","uri":"http://purl.org/lobid/rpb#n806000","definition":"Darstellende Kunst (n800000) > Kleinkunst (n806000)"}
 {"prefLabel":"Kabarett","uri":"http://purl.org/lobid/rpb#n806020","definition":"Darstellende Kunst (n800000) > Kleinkunst (n806000) > Kabarett (n806020)"}
-{"prefLabel":"Musik","uri":"http://purl.org/lobid/rpb#n820000"}
 {"prefLabel":"Musik allgemein","uri":"http://purl.org/lobid/rpb#n820100","definition":"Musik (n820000) > Musik allgemein (n820100)"}
 {"prefLabel":"Musikwissenschaft","uri":"http://purl.org/lobid/rpb#n821000","definition":"Musik (n820000) > Musikwissenschaft (n821000)"}
 {"prefLabel":"Musikerin. Musiker / Ausbildung","uri":"http://purl.org/lobid/rpb#n822000","definition":"Musik (n820000) > Musikerin. Musiker / Ausbildung (n822000)"}
@@ -1002,7 +970,6 @@
 {"prefLabel":"Kirchenmusik / Aufführung","uri":"http://purl.org/lobid/rpb#n827010","definition":"Musik (n820000) > Kirchenmusik (n827000) > Kirchenmusik / Aufführung (n827010)"}
 {"prefLabel":"Musikinstrument","uri":"http://purl.org/lobid/rpb#n828000","definition":"Musik (n820000) > Musikinstrument (n828000)"}
 {"prefLabel":"Laienmusik","uri":"http://purl.org/lobid/rpb#n829000","definition":"Musik (n820000) > Laienmusik (n829000)"}
-{"prefLabel":"Kunst. Architektur","uri":"http://purl.org/lobid/rpb#n840000"}
 {"prefLabel":"Kunst. Architektur allgemein","uri":"http://purl.org/lobid/rpb#n840100","definition":"Kunst. Architektur (n840000) > Kunst. Architektur allgemein (n840100)"}
 {"prefLabel":"Kunst","uri":"http://purl.org/lobid/rpb#n841000","definition":"Kunst. Architektur (n840000) > Kunst (n841000)"}
 {"prefLabel":"Kunststudium","uri":"http://purl.org/lobid/rpb#n841020","definition":"Kunst. Architektur (n840000) > Kunst (n841000) > Kunststudium (n841020)"}
@@ -1063,7 +1030,6 @@
 {"prefLabel":"Teppich","uri":"http://purl.org/lobid/rpb#n849084","definition":"Kunst. Architektur (n840000) > Kunsthandwerk (n849000) > Textilien. Teppich. Tapete (n849080) > Teppich (n849084)"}
 {"prefLabel":"Tapete","uri":"http://purl.org/lobid/rpb#n849086","definition":"Kunst. Architektur (n840000) > Kunsthandwerk (n849000) > Textilien. Teppich. Tapete (n849080) > Tapete (n849086)"}
 {"prefLabel":"Uhr. Musikinstrument","uri":"http://purl.org/lobid/rpb#n849090","definition":"Kunst. Architektur (n840000) > Kunsthandwerk (n849000) > Uhr. Musikinstrument (n849090)"}
-{"prefLabel":"Buch. Bibliothek","uri":"http://purl.org/lobid/rpb#n860000"}
 {"prefLabel":"Buch. Bibliothek allgemein","uri":"http://purl.org/lobid/rpb#n860100","definition":"Buch. Bibliothek (n860000) > Buch. Bibliothek allgemein (n860100)"}
 {"prefLabel":"Buch","uri":"http://purl.org/lobid/rpb#n861000","definition":"Buch. Bibliothek (n860000) > Buch (n861000)"}
 {"prefLabel":"Schrift / Geschichte","uri":"http://purl.org/lobid/rpb#n861010","definition":"Buch. Bibliothek (n860000) > Buch (n861000) > Schrift / Geschichte (n861010)"}
@@ -1087,7 +1053,6 @@
 {"prefLabel":"Schulbibliothek","uri":"http://purl.org/lobid/rpb#n865070","definition":"Buch. Bibliothek (n860000) > Bibliothek (n865000) > Schulbibliothek (n865070)"}
 {"prefLabel":"Privatbibliothek","uri":"http://purl.org/lobid/rpb#n865080","definition":"Buch. Bibliothek (n860000) > Bibliothek (n865000) > Privatbibliothek (n865080)"}
 {"prefLabel":"Bibliothekarin. Bibliothekar","uri":"http://purl.org/lobid/rpb#n865090","definition":"Buch. Bibliothek (n860000) > Bibliothek (n865000) > Bibliothekarin. Bibliothekar (n865090)"}
-{"prefLabel":"Publizistik. Information. Dokumentation","uri":"http://purl.org/lobid/rpb#n880000"}
 {"prefLabel":"Publizistik. Information. Dokumentation allgemein","uri":"http://purl.org/lobid/rpb#n880100","definition":"Publizistik. Information. Dokumentation (n880000) > Publizistik. Information. Dokumentation allgemein (n880100)"}
 {"prefLabel":"Publizistik","uri":"http://purl.org/lobid/rpb#n882000","definition":"Publizistik. Information. Dokumentation (n880000) > Publizistik (n882000)"}
 {"prefLabel":"Presse","uri":"http://purl.org/lobid/rpb#n882020","definition":"Publizistik. Information. Dokumentation (n880000) > Publizistik (n882000) > Presse (n882020)"}

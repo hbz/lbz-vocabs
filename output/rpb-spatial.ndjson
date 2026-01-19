@@ -1,9 +1,3 @@
-{"prefLabel":"Rheinland-Pfalz insgesamt. Landesteile","uri":"https://rpb.lobid.org/spatial#n1"}
-{"prefLabel":"Landschaften in Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n2"}
-{"prefLabel":"Kirchliche Gebiete in Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n3"}
-{"prefLabel":"Historische Territorien und Gebiete","uri":"https://rpb.lobid.org/spatial#n4"}
-{"prefLabel":"Angrenzende Gebiete und länderübergreifende Regionen","uri":"https://rpb.lobid.org/spatial#n5"}
-{"prefLabel":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile","uri":"https://rpb.lobid.org/spatial#n6"}
 {"prefLabel":"Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n01","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland-Pfalz (n01)"}
 {"prefLabel":"Rheinland","uri":"https://rpb.lobid.org/spatial#n03","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland (n03)"}
 {"prefLabel":"Rheinhessen","uri":"https://rpb.lobid.org/spatial#n05","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinhessen (n05)"}

@@ -19,7 +19,8 @@ qres = g.query(
     SELECT ?label ?concept ?definition
        WHERE {
            ?concept a skos:Concept ;
-                skos:prefLabel ?label .
+                skos:prefLabel ?label ;
+                skos:broader ?broader .
                OPTIONAL {?concept skos:definition ?definition}
        }""")
 
