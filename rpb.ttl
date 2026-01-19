@@ -6,7 +6,7 @@
 
 <http://purl.org/lobid/rpb>
         a                              skos:ConceptScheme ;
-        dct:description                "This classification was created for use in the bibliography of Rhineland-Palatinate (RPB). The transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
+        dct:description                "This classification was created for use in the bibliography of Rhineland-Palatinate (RPB) and transformed to SKOS by hbz in 2014."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dct:modified                   "2026-01-15" ;
@@ -7617,4 +7617,3 @@
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "884020" ;
         skos:prefLabel   "Internet"@de .
-
