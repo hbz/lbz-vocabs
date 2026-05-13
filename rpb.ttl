@@ -1429,31 +1429,31 @@
 
 :n242200  a              skos:Concept ;
         skos:broader     :n240000 ;
-        skos:definition  "Geschichte (n240000) > Hochstift Trier (n242200)"@de ;
+        skos:definition  "Geschichte (n240000) > Erzstift Trier (n242200)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "242200" ;
-        skos:prefLabel   "Hochstift Trier"@de .
+        skos:prefLabel   "Erzstift Trier"@de .
 
 :n242300  a              skos:Concept ;
         skos:broader     :n240000 ;
-        skos:definition  "Geschichte (n240000) > Hochstift Mainz (n242300)"@de ;
+        skos:definition  "Geschichte (n240000) > Erzstift Mainz (n242300)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "242300" ;
-        skos:prefLabel   "Hochstift Mainz"@de .
+        skos:prefLabel   "Erzstift Mainz"@de .
 
 :n242500  a              skos:Concept ;
         skos:broader     :n240000 ;
-        skos:definition  "Geschichte (n240000) > Hochstift Speyer (n242500)"@de ;
+        skos:definition  "Geschichte (n240000) > Erzstift Speyer (n242500)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "242500" ;
-        skos:prefLabel   "Hochstift Speyer"@de .
+        skos:prefLabel   "Erzstift Speyer"@de .
 
 :n242600  a              skos:Concept ;
         skos:broader     :n240000 ;
-        skos:definition  "Geschichte (n240000) > Hochstift Worms (n242600)"@de ;
+        skos:definition  "Geschichte (n240000) > Erzstift Worms (n242600)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "242600" ;
-        skos:prefLabel   "Hochstift Worms"@de .
+        skos:prefLabel   "Erzstift Worms"@de .
 
 :n242700  a              skos:Concept ;
         skos:broader     :n240000 ;
@@ -1534,10 +1534,10 @@
 
 :n242812  a              skos:Concept ;
         skos:broader     :n242800 ;
-        skos:definition  "Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Hochstift Köln (n242812)"@de ;
+        skos:definition  "Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Erzstift Köln (n242812)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "242812" ;
-        skos:prefLabel   "Hochstift Köln"@de .
+        skos:prefLabel   "Erzstift Köln"@de .
 
 :n242814  a              skos:Concept ;
         skos:broader     :n242800 ;
@@ -5280,10 +5280,10 @@
 
 :n704043  a              skos:Concept ;
         skos:broader     :n704040 ;
-        skos:definition  "Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Karneval (n704043)"@de ;
+        skos:definition  "Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Fastnacht (n704043)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "704043" ;
-        skos:prefLabel   "Karneval"@de .
+        skos:prefLabel   "Fastnacht"@de .
 
 :n704044  a              skos:Concept ;
         skos:broader     :n704040 ;
@@ -7617,3 +7617,10 @@
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "884020" ;
         skos:prefLabel   "Internet"@de .
+
+:n884040  a              skos:Concept ;
+        skos:broader     :n884000 ;
+        skos:definition  "Publizistik. Information. Dokumentation (n880000) > Information und Dokumentation (n884000) > Digitalisierung (n884040)"@de ;
+        skos:inScheme    <http://purl.org/lobid/rpb> ;
+        skos:notation    "884040" ;
+        skos:prefLabel   "Digitalisierung"@de .
