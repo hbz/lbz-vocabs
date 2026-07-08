@@ -195,10 +195,10 @@
 {"prefLabel":"Pfalz / Geschichte Anfänge-1945","uri":"http://purl.org/lobid/rpb#n241200","definition":"Geschichte (n240000) > Pfalz / Geschichte Anfänge-1945 (n241200)"}
 {"prefLabel":"Rheinhessen / Geschichte Anfänge-1945","uri":"http://purl.org/lobid/rpb#n241400","definition":"Geschichte (n240000) > Rheinhessen / Geschichte Anfänge-1945 (n241400)"}
 {"prefLabel":"Kurpfalz","uri":"http://purl.org/lobid/rpb#n242100","definition":"Geschichte (n240000) > Kurpfalz (n242100)"}
-{"prefLabel":"Hochstift Trier","uri":"http://purl.org/lobid/rpb#n242200","definition":"Geschichte (n240000) > Hochstift Trier (n242200)"}
-{"prefLabel":"Hochstift Mainz","uri":"http://purl.org/lobid/rpb#n242300","definition":"Geschichte (n240000) > Hochstift Mainz (n242300)"}
-{"prefLabel":"Hochstift Speyer","uri":"http://purl.org/lobid/rpb#n242500","definition":"Geschichte (n240000) > Hochstift Speyer (n242500)"}
-{"prefLabel":"Hochstift Worms","uri":"http://purl.org/lobid/rpb#n242600","definition":"Geschichte (n240000) > Hochstift Worms (n242600)"}
+{"prefLabel":"Erzstift Trier","uri":"http://purl.org/lobid/rpb#n242200","definition":"Geschichte (n240000) > Erzstift Trier (n242200)"}
+{"prefLabel":"Erzstift Mainz","uri":"http://purl.org/lobid/rpb#n242300","definition":"Geschichte (n240000) > Erzstift Mainz (n242300)"}
+{"prefLabel":"Erzstift Speyer","uri":"http://purl.org/lobid/rpb#n242500","definition":"Geschichte (n240000) > Erzstift Speyer (n242500)"}
+{"prefLabel":"Erzstift Worms","uri":"http://purl.org/lobid/rpb#n242600","definition":"Geschichte (n240000) > Erzstift Worms (n242600)"}
 {"prefLabel":"Reichsterritorium. Reichsbeziehung","uri":"http://purl.org/lobid/rpb#n242700","definition":"Geschichte (n240000) > Reichsterritorium. Reichsbeziehung (n242700)"}
 {"prefLabel":"Reichstag","uri":"http://purl.org/lobid/rpb#n242720","definition":"Geschichte (n240000) > Reichsterritorium. Reichsbeziehung (n242700) > Reichstag (n242720)"}
 {"prefLabel":"Reichsrecht","uri":"http://purl.org/lobid/rpb#n242730","definition":"Geschichte (n240000) > Reichsterritorium. Reichsbeziehung (n242700) > Reichsrecht (n242730)"}
@@ -210,7 +210,7 @@
 {"prefLabel":"Reichsritterschaft","uri":"http://purl.org/lobid/rpb#n242760","definition":"Geschichte (n240000) > Reichsterritorium. Reichsbeziehung (n242700) > Reichsritterschaft (n242760)"}
 {"prefLabel":"Kleinere Territorien und Teile auswärtiger Territorien","uri":"http://purl.org/lobid/rpb#n242800","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800)"}
 {"prefLabel":"Luxemburg","uri":"http://purl.org/lobid/rpb#n242810","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Luxemburg (n242810)"}
-{"prefLabel":"Hochstift Köln","uri":"http://purl.org/lobid/rpb#n242812","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Hochstift Köln (n242812)"}
+{"prefLabel":"Erzstift Köln","uri":"http://purl.org/lobid/rpb#n242812","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Erzstift Köln (n242812)"}
 {"prefLabel":"Grafschaft Homburg, Saar","uri":"http://purl.org/lobid/rpb#n242814","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Grafschaft Homburg, Saar (n242814)"}
 {"prefLabel":"Grafschaft Saarbrücken","uri":"http://purl.org/lobid/rpb#n242816","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Grafschaft Saarbrücken (n242816)"}
 {"prefLabel":"Staat Leiningen","uri":"http://purl.org/lobid/rpb#n242818","definition":"Geschichte (n240000) > Kleinere Territorien und Teile auswärtiger Territorien (n242800) > Staat Leiningen (n242818)"}
@@ -736,7 +736,7 @@
 {"prefLabel":"Brauch / Alltag","uri":"http://purl.org/lobid/rpb#n704020","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Alltag (n704020)"}
 {"prefLabel":"Brauch / Jahreslauf","uri":"http://purl.org/lobid/rpb#n704040","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040)"}
 {"prefLabel":"Winter / Brauch. Weihnachten. Neujahr","uri":"http://purl.org/lobid/rpb#n704042","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Winter / Brauch. Weihnachten. Neujahr (n704042)"}
-{"prefLabel":"Karneval","uri":"http://purl.org/lobid/rpb#n704043","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Karneval (n704043)"}
+{"prefLabel":"Fastnacht","uri":"http://purl.org/lobid/rpb#n704043","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Fastnacht (n704043)"}
 {"prefLabel":"Frühling / Brauch. Ostern","uri":"http://purl.org/lobid/rpb#n704044","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Frühling / Brauch. Ostern (n704044)"}
 {"prefLabel":"Mai / Brauch. Pfingsten. Sommer / Brauch","uri":"http://purl.org/lobid/rpb#n704045","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Mai / Brauch. Pfingsten. Sommer / Brauch (n704045)"}
 {"prefLabel":"Erntedankfest","uri":"http://purl.org/lobid/rpb#n704046","definition":"Volkskunde (n700000) > Brauch (n704000) > Brauch / Jahreslauf (n704040) > Erntedankfest (n704046)"}
@@ -1064,3 +1064,4 @@
 {"prefLabel":"Journalistin. Journalist","uri":"http://purl.org/lobid/rpb#n882090","definition":"Publizistik. Information. Dokumentation (n880000) > Publizistik (n882000) > Journalistin. Journalist (n882090)"}
 {"prefLabel":"Information und Dokumentation","uri":"http://purl.org/lobid/rpb#n884000","definition":"Publizistik. Information. Dokumentation (n880000) > Information und Dokumentation (n884000)"}
 {"prefLabel":"Internet","uri":"http://purl.org/lobid/rpb#n884020","definition":"Publizistik. Information. Dokumentation (n880000) > Information und Dokumentation (n884000) > Internet (n884020)"}
+{"prefLabel":"Digitalisierung","uri":"http://purl.org/lobid/rpb#n884040","definition":"Publizistik. Information. Dokumentation (n880000) > Information und Dokumentation (n884000) > Digitalisierung (n884040)"}
