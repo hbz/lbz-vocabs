@@ -19,9 +19,8 @@ qres = g.query(
     SELECT ?label ?concept ?definition
        WHERE {
            ?concept a skos:Concept ;
-                skos:prefLabel ?label ;
-                skos:broader ?broader .
-               OPTIONAL {?concept skos:definition ?definition}
+                skos:prefLabel ?label .
+           OPTIONAL {?concept skos:definition ?definition}
        }""")
 
 # Write results to file per line
