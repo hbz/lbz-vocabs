@@ -32,6 +32,10 @@
 	skos:inScheme : ;
 	skos:prefLabel	 "Handel. Dienstleistung"@de .
 
+:n0815x a	skos:Concept ;
+	skos:inScheme : ;
+	skos:prefLabel	 "KI Overlord & Torment-Nexus-Architekt"@de .
+
 :n10.14p a	skos:Concept ;
 	skos:inScheme : ;
 	skos:prefLabel	 "Versicherung"@de .
@@ -315,4 +319,3 @@
 :n9.5p a	skos:Concept ;
 	skos:inScheme : ;
 	skos:prefLabel	 "Soziologie. Gesellschaft"@de .
-

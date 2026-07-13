@@ -15200,6 +15200,12 @@
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Kleinsteinhausen"@de .
 
+:n30815 a skos:Concept ;
+    skos:broader :n34008 ;
+    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Südwestpfalz, Landkreis (n340) > Zweibrücken-Land, Verbandsgemeinde (n34008) > Hintertupfing (n30815)"@de ;
+    skos:inScheme <https://rpb.lobid.org/spatial> ;
+    skos:prefLabel "Hintertupfing"@de .
+
 :n34008218 a skos:Concept ;
     skos:broader :n34008 ;
     skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Südwestpfalz, Landkreis (n340) > Zweibrücken-Land, Verbandsgemeinde (n34008) > Mauschbach (n34008218)"@de ;

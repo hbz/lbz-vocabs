@@ -34,6 +34,14 @@
         skos:notation    "101000" ;
         skos:prefLabel   "Bibliografie"@de .
 
+:n141624  a              skos:Concept ;
+        skos:broader     :n141620 ;
+        skos:definition  "Geowissenschaften (n140000) > Paläontologie (n141600) > Paläobotanik (n141620) > Fossile Samenpflanzen (n141624)"@de ;
+        skos:inScheme    <http://purl.org/lobid/rpb> ;
+        skos:notation    "141624" ;
+        skos:prefLabel   "Fossile Samenpflanzen"@de .
+
+
 :n102000  a              skos:Concept ;
         skos:broader     :n100000 ;
         skos:definition  "Landeskunde (n100000) > Landesbeschreibung (n102000)"@de ;
