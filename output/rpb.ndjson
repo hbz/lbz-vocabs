@@ -1,5 +1,6 @@
 {"prefLabel":"Landeskunde allgemein","uri":"http://purl.org/lobid/rpb#n100100","definition":"Landeskunde (n100000) > Landeskunde allgemein (n100100)"}
 {"prefLabel":"Bibliografie","uri":"http://purl.org/lobid/rpb#n101000","definition":"Landeskunde (n100000) > Bibliografie (n101000)"}
+{"prefLabel":"Fossile Samenpflanzen","uri":"http://purl.org/lobid/rpb#n141624","definition":"Geowissenschaften (n140000) > Paläontologie (n141600) > Paläobotanik (n141620) > Fossile Samenpflanzen (n141624)"}
 {"prefLabel":"Landesbeschreibung","uri":"http://purl.org/lobid/rpb#n102000","definition":"Landeskunde (n100000) > Landesbeschreibung (n102000)"}
 {"prefLabel":"Kreisbeschreibung","uri":"http://purl.org/lobid/rpb#n102040","definition":"Landeskunde (n100000) > Landesbeschreibung (n102000) > Kreisbeschreibung (n102040)"}
 {"prefLabel":"Verbandsgemeindebeschreibung","uri":"http://purl.org/lobid/rpb#n102042","definition":"Landeskunde (n100000) > Landesbeschreibung (n102000) > Verbandsgemeindebeschreibung (n102042)"}
