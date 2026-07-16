@@ -34,21 +34,32 @@ jobs:
       - name: Detect changed TTL files
         id: changed_ttl
         run: |
+          TTL_COMMIT_SHA=""
+
           # Check if this is the first commit (no previous commit)
           if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
             # Get the list of changed TTL files in the current commit
             CHANGED_TTL=$(git diff-tree --no-commit-id --name-only -r "${{ github.sha }}" -- '*.ttl' || true)
+            # Get the commit SHA of the current commit
+            TTL_COMMIT_SHA="${{ github.sha }}"
           else
             # Get the list of changed TTL files between the previous commit and the current commit
             CHANGED_TTL=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- '*.ttl' || true)
+            # Get the commit SHA of the last commit that changed TTL files
+            TTL_COMMIT_SHA=$(git log --format=%H -n 1 "${{ github.event.before }}".."${{ github.sha }}" -- '*.ttl' || true)
           fi
+
           # If no TTL files have changed, set the output to an empty string
           # GITHUB_OUTPUT is a special file that GitHub Actions uses to set output values for steps
           if [ -z "$CHANGED_TTL" ]; then
             echo "changed_files=" >> "$GITHUB_OUTPUT"
+            echo "ttl_commit_sha=" >> "$GITHUB_OUTPUT"
             echo "No TTL changes detected."
             exit 0
           fi
+
+          echo "ttl_commit_sha=$TTL_COMMIT_SHA" >> "$GITHUB_OUTPUT"
+
           # Write the list of changed TTL files to the output file
           echo "changed_files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$CHANGED_TTL" >> "$GITHUB_OUTPUT"
@@ -76,6 +87,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No NDJSON changes to commit."
           else
-            git commit -m "Generate NDJSON from updated TTL files"
+            COMMIT_SHA="${{ steps.changed_ttl.outputs.ttl_commit_sha }}"
+            git commit -m "Generate NDJSON from updated TTL files" -m "TTL change commit: ${COMMIT_SHA:-unknown}"
             git push
           fi
