@@ -1,0 +1,93 @@
+name: Generate NDJSON from TTL changes
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - '**/*.ttl'
+
+jobs:
+  generate-ndjson:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          # We need the full history to detect changes in TTL files
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install rdflib
+
+      - name: Detect changed TTL files
+        id: changed_ttl
+        run: |
+          TTL_COMMIT_SHA=""
+
+          # Check if this is the first commit (no previous commit)
+          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            # Get the list of changed TTL files in the current commit
+            CHANGED_TTL=$(git diff-tree --no-commit-id --name-only -r "${{ github.sha }}" -- '*.ttl' || true)
+            # Get the commit SHA of the current commit
+            TTL_COMMIT_SHA="${{ github.sha }}"
+          else
+            # Get the list of changed TTL files between the previous commit and the current commit
+            CHANGED_TTL=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- '*.ttl' || true)
+            # Get the commit SHA of the last commit that changed TTL files
+            TTL_COMMIT_SHA=$(git log --format=%H -n 1 "${{ github.event.before }}".."${{ github.sha }}" -- '*.ttl' || true)
+          fi
+
+          # If no TTL files have changed, set the output to an empty string
+          # GITHUB_OUTPUT is a special file that GitHub Actions uses to set output values for steps
+          if [ -z "$CHANGED_TTL" ]; then
+            echo "changed_files=" >> "$GITHUB_OUTPUT"
+            echo "ttl_commit_sha=" >> "$GITHUB_OUTPUT"
+            echo "No TTL changes detected."
+            exit 0
+          fi
+
+          echo "ttl_commit_sha=$TTL_COMMIT_SHA" >> "$GITHUB_OUTPUT"
+
+          # Write the list of changed TTL files to the output file
+          echo "changed_files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$CHANGED_TTL" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Generate NDJSON files
+        if: steps.changed_ttl.outputs.changed_files != ''
+        run: |
+          while IFS= read -r file; do
+            # Skip empty lines
+            [ -n "$file" ] || continue
+            echo "Generating NDJSON for $file"
+            python scripts/skos2json.py "$file"
+          done <<'EOF'
+          ${{ steps.changed_ttl.outputs.changed_files }}
+          EOF
+
+      - name: Commit and push generated files
+        if: steps.changed_ttl.outputs.changed_files != ''
+        run: |
+          # Use the GitHub Actions bot user
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.ndjson
+          if git diff --cached --quiet; then
+            echo "No NDJSON changes to commit."
+          else
+            COMMIT_SHA="${{ steps.changed_ttl.outputs.ttl_commit_sha }}"
+            git commit -m "Generate NDJSON from updated TTL files" -m "TTL change commit: ${COMMIT_SHA:-unknown}"
+            git push
+          fi
