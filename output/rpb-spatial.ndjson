@@ -1,3 +1,9 @@
+{"prefLabel":"Rheinland-Pfalz insgesamt. Landesteile","uri":"https://rpb.lobid.org/spatial#n1"}
+{"prefLabel":"Landschaften in Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n2"}
+{"prefLabel":"Kirchliche Gebiete in Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n3"}
+{"prefLabel":"Historische Territorien und Gebiete","uri":"https://rpb.lobid.org/spatial#n4"}
+{"prefLabel":"Angrenzende Gebiete und länderübergreifende Regionen","uri":"https://rpb.lobid.org/spatial#n5"}
+{"prefLabel":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile","uri":"https://rpb.lobid.org/spatial#n6"}
 {"prefLabel":"Rheinland-Pfalz","uri":"https://rpb.lobid.org/spatial#n01","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland-Pfalz (n01)"}
 {"prefLabel":"Rheinland","uri":"https://rpb.lobid.org/spatial#n03","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland (n03)"}
 {"prefLabel":"Rheinhessen","uri":"https://rpb.lobid.org/spatial#n05","definition":"Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinhessen (n05)"}
@@ -1853,7 +1859,7 @@
 {"prefLabel":"Schweich, Stadt","uri":"https://rpb.lobid.org/spatial#n23506125","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Schweich an der Röm. Weinstraße, Verbandsgemeinde (n23506) > Schweich, Stadt (n23506125)"}
 {"prefLabel":"Thörnich","uri":"https://rpb.lobid.org/spatial#n23506134","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Schweich an der Röm. Weinstraße, Verbandsgemeinde (n23506) > Thörnich (n23506134)"}
 {"prefLabel":"Trittenheim","uri":"https://rpb.lobid.org/spatial#n23506207","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Schweich an der Röm. Weinstraße, Verbandsgemeinde (n23506) > Trittenheim (n23506207)"}
-{"prefLabel":"Aach","uri":"https://rpb.lobid.org/spatial#n23507001","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Aach (n23507001)"}
+{"prefLabel":"Aach-Test","uri":"https://rpb.lobid.org/spatial#n23507001","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Aach (n23507001)"}
 {"prefLabel":"Franzenheim","uri":"https://rpb.lobid.org/spatial#n23507027","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Franzenheim (n23507027)"}
 {"prefLabel":"Hockweiler","uri":"https://rpb.lobid.org/spatial#n23507048","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Hockweiler (n23507048)"}
 {"prefLabel":"Igel","uri":"https://rpb.lobid.org/spatial#n23507051","definition":"Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Igel (n23507051)"}
