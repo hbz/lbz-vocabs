@@ -4715,7 +4715,7 @@
         skos:definition  "Umwelt- und Naturschutz (n580000) > Umweltschutz (n582000) > Abfallbeseitigung (n582060)"@de ;
         skos:inScheme    <http://purl.org/lobid/rpb> ;
         skos:notation    "582060" ;
-        skos:prefLabel   "Abfallbeseitigung"@de .
+        skos:prefLabel   "Abfallbeseitigung-Test"@de .
 
 :n582070  a              skos:Concept ;
         skos:broader     :n582000 ;

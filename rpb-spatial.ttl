@@ -11304,7 +11304,7 @@
     skos:broader :n23507 ;
     skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Trier-Saarburg, Landkreis (n235) > Trier-Land, Verbandsgemeinde (n23507) > Aach (n23507001)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Aach"@de .
+    skos:prefLabel "Aach-Test"@de .
 
 :n23507027 a skos:Concept ;
     skos:broader :n23507 ;
