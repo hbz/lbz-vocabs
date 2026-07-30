@@ -72,7 +72,14 @@ jobs:
             # Skip empty lines
             [ -n "$file" ] || continue
             echo "Generating NDJSON for $file"
-            python scripts/skos2json.py "$file"
+            case "$(basename "$file")" in 
+              rpb.ttl|rpb-spatial.ttl)
+                python scripts/skos2json.py "$file" --no-top-levels
+                ;;
+              *)
+                python scripts/skos2json.py "$file"
+                ;;
+            esac
           done <<'EOF'
           ${{ steps.changed_ttl.outputs.changed_files }}
           EOF
