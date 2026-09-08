@@ -682,9 +682,9 @@
 
 :n143 a skos:Concept ;
     skos:broader :n6 ;
-    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Westerwald-Kreis (n143)"@de ;
+    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Westerwaldkreis (n143)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Westerwald-Kreis"@de .
+    skos:prefLabel "Westerwaldkreis"@de .
 
 :n231 a skos:Concept ;
     skos:broader :n6 ;
@@ -724,9 +724,9 @@
 
 :n333 a skos:Concept ;
     skos:broader :n6 ;
-    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Donnersberg-Kreis (n333)"@de ;
+    skos:definition "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile (n6) > Donnersbergkreis (n333)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Donnersberg-Kreis"@de .
+    skos:prefLabel "Donnersbergkreis"@de .
 
 :n334 a skos:Concept ;
     skos:broader :n6 ;
