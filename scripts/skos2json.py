@@ -24,7 +24,7 @@ g = rdflib.Graph()
 g.parse(input_file, format="ttl")
 
 # SPARQL query for URI and label of each concept
-predicate_pattern = f"skos:prefLabel ?label {"; skos:broader ?broader" if no_top_levels else ""} ."
+predicate_pattern = f'skos:prefLabel ?label {"; skos:broader ?broader" if no_top_levels else ""} .'
 
 query = f"""
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
