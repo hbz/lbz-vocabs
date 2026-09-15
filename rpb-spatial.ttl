@@ -15478,7 +15478,7 @@
 
 :n4094352n5 a skos:Concept ;
     skos:broader :n15 ;
-    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15) > Haardt (n4094352n5)"@de ;
+    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15) > Haardt (n4094352n5)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Haardt"@de .
 
@@ -15587,7 +15587,7 @@
 
 :n4205902n1 a skos:Concept ;
     skos:broader :n15 ;
-    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15) > Gräfensteiner Land (n4205902n1)"@de ;
+    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15) > Gräfensteiner Land (n4205902n1)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Gräfensteiner Land"@de .
 
@@ -15742,7 +15742,7 @@
 
 :n00Sn03s0395a a skos:Concept ;
     skos:broader :n15 ;
-    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15) > Oberer Mundatwald (n00Sn03s0395a)"@de ;
+    skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15) > Oberer Mundatwald (n00Sn03s0395a)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Oberer Mundatwald"@de .
 
