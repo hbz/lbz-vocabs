@@ -270,6 +270,7 @@
 
 :n35    a skos:Concept ;
         skos:broader    :n3 ;
+        skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Katholische Kirche / Diözese Limburg (n35)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Katholische Kirche / Diözese Limburg"@de .
 
@@ -338,6 +339,7 @@
 
 :n47 a skos:Concept ;
     skos:broader    :n4 ;
+    skos:definition "Historische Territorien und Gebiete (n4) > Pfalz-Zweibrücken (n47)"@de ;
     skos:inScheme   <https://rpb.lobid.org/spatial> ;
     skos:prefLabel  "Pfalz-Zweibrücken"@de .
 
@@ -540,6 +542,7 @@
 
 :n54    a skos:Concept ;
         skos:broader    :n4 ;
+        skos:definition "Historische Territorien und Gebiete (n4) > Staat Nassau (n54)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Staat Nassau"@de .
 
@@ -594,6 +597,7 @@
 
 :n92 a skos:Concept ;
     skos:broader    :n5 ;
+    skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Rhein-Main-Gebiet (n92)"@de ;
     skos:inScheme   <https://rpb.lobid.org/spatial> ;
     skos:prefLabel  "Rhein-Main-Gebiet"@de .
 
@@ -15352,6 +15356,7 @@
 
 :n4004655n2 a skos:Concept ;
         skos:broader    :n50 ;
+        skos:definition "Historische Territorien und Gebiete (n4) > Französische Gebiete / 1792-1815 (n50) > Unterelsass (n4004655n2)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Unterelsass"@de .
 
@@ -15363,11 +15368,13 @@
 
 :n4010909n4 a skos:Concept ;
         skos:broader    :n15 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15) > Dahner Felsenland (n4010909n4)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dahner Felsenland"@de .
 
 :n4012733n3 a skos:Concept ;
         skos:broader    :n17 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Nordpfälzer Bergland (n17) > Donnersberg (n4012733n3)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Donnersberg"@de .
 
@@ -15427,6 +15434,7 @@
 
 :n4054837n5 a skos:Concept ;
         skos:broader    :n10 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Siebengebirge (n4054837n5)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Siebengebirge"@de .
 
@@ -15438,6 +15446,7 @@
 
 :n4055608n6 a skos:Concept ;
         skos:broader    :n19 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Hunsrück (n19) > Soonwald (n4055608n6)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Soonwald"@de .
 
@@ -15449,6 +15458,7 @@
 
 :n4060881n5 a skos:Concept ;
         skos:broader    :n4 ;
+        skos:definition "Historische Territorien und Gebiete (n4) > Regierungsbezirk Trier (-1999) (n4060881n5)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Regierungsbezirk Trier (-1999)"@de .
 
@@ -15502,6 +15512,7 @@
 
 :n4101955n6 a skos:Concept ;
         skos:broader    :n10 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Ober-Westerwald (n4101955n6)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ober-Westerwald"@de .
 
@@ -15525,6 +15536,7 @@
 
 :n4108577n2 a skos:Concept ;
         skos:broader    :n10 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > Vorderwesterwald (n4108577n2)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Vorderwesterwald"@de .
 
@@ -15542,6 +15554,7 @@
 
 :n4110084n0 a skos:Concept ;
         skos:broader    :n20 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Eifel / Ost (n4110084n0)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Eifel / Ost"@de .
 
@@ -15553,6 +15566,7 @@
 
 :n4115441n1 a skos:Concept ;
         skos:broader    :n20 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Ösling (n4115441n1)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ösling"@de .
 
@@ -15582,6 +15596,7 @@
 
 :n4133948n4 a skos:Concept ;
         skos:broader    :n50 ;
+        skos:definition "Historische Territorien und Gebiete (n4) > Französische Gebiete / 1792-1815 (n50) > Mainzer Republik (n4133948n4)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mainzer Republik"@de .
 
@@ -15641,16 +15656,19 @@
 
 :n4329692n0 a skos:Concept ;
         skos:broader    :n11 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Taunus (n11) > Einrich (n4329692n0)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Einrich"@de .
 
 :n4377902n5 a skos:Concept ;
         skos:broader    :n22 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22) > Mittelrheintal / Nord (n4377902n5)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mittelrheintal / Nord"@de .
 
 :n4393883n8 a skos:Concept ;
         skos:broader    :n15 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzerwald (n15) > Stumpfwald (n4393883n8)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Stumpfwald"@de .
 
@@ -15662,6 +15680,7 @@
 
 :n4639983n5 a skos:Concept ;
         skos:broader    :n24 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Moseltal (n24) > Obermosel-Gebiet (n4639983n5)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Obermosel-Gebiet"@de .
 
@@ -15697,6 +15716,7 @@
 
 :n4653560n3 a skos:Concept ;
         skos:broader    :n20 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20) > Ahreifel (n4653560n3)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ahreifel"@de .
 
@@ -15708,11 +15728,13 @@
 
 :n4678434n2 a skos:Concept ;
         skos:broader    :n19 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Hunsrück (n19) > Lützelsoon (n4678434n2)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lützelsoon"@de .
 
 :n4827033n7 a skos:Concept ;
         skos:broader    :n10 ;
+        skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10) > ildenburgisches Land (n4827033n7)"@de ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wildenburgisches Land"@de .
 
